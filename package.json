@@ -1,0 +1,16 @@
+{
+  "name": "mllib",
+  "version": "1.0.0",
+  "main": "import.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^7.1.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
