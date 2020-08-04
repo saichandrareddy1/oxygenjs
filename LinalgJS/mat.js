@@ -87,13 +87,32 @@ function eye(shape=[], iden, rowmove =true){
     }
     
 }
+
+
+function inner(array1, array2) {
+    var inner_array = []
+    for (let i = 0; i < array1.length; i++) {
+        inner_array[i] = []
+        for (let j = 0; j < array2[0].length; j++) {
+            var sum = 0
+            for (let k = 0; k < array1[0].length; k++) {
+                console.log(i, j, j, k)
+                sum = sum + array1[i][k] * array2[j][k]   
+            }
+            inner_array[i][j] = sum
+        }
+    }
+    return inner_array
+}
+
 // var a = [[1, 2], [3, 4]]
 // var b = [[11, 12], [13, 14]]
 
 // console.log(dot(a, b))
 
-// var obj = eye([5, 5], 4, false)
+// var obj = inner([5, 5], 4, false)
+// var obj = inner(a, b)
 // console.table(obj)
 
 
-export {eye, identity, vdot, dot, mat}
+export {eye, identity, vdot, dot, mat, inner}
