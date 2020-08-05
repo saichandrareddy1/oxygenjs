@@ -1,6 +1,6 @@
 ### OxygenJS
 
-Hello Every One I'm a JavaScript :heart:er who is trying to bulid Machine Learning libaray in JavaScript, I really excited to create Machine Learning Library in JavaScript
+Hello Every One I'm a <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="26" height="20"> :heart:er who is trying to bulid Machine Learning libaray in <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="26" height="20">, I really excited to create Machine Learning Library in JavaScript
 
 
 ### Guide to Install
@@ -37,7 +37,7 @@ NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
 
 ### DOCUMENTATION 
 
-Now Numerical <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="50" height="50"> was going to Update By Agust 15th,Very soon will release with all the ML algorithmns in soon :v:
+Now Numerical  <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="26" height="20">  was going to Update By Agust 15th,Very soon will release with all the ML algorithmns in soon :v:
 
 
 
