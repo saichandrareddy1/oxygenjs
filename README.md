@@ -2,6 +2,22 @@
 
 Hello Every One I'm a JavaScript :heart:er who is trying to bulid Machine Learning libaray in JavaScript, I really excited to create Machine Learning Library in JavaScript
 
+
+# Guide to Install
+[Installations]()
+[data]()
+[Engine]()
+
+# Numerical JavaScript
+[LinalgJS]()
+[ndJS]()
+
+# Machine Learning Library
+[Regression]()
+[Classification]()
+[clustering]()
+
+
 ### What I need
 
 I'm Really very :smile: if you are interested to contribute here !!!
