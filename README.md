@@ -37,6 +37,6 @@ NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
 
 ### DOCUMENTATION 
 
-Now Numerical [<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][jsplaylist] was going to Update By Agust 15th,Very soon will release with all the ML algorithmns in soon :v:
+Now Numerical ![jsplaylist]("https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png") was going to Update By Agust 15th,Very soon will release with all the ML algorithmns in soon :v:
 
 ### Thanks :pray::pray::pray:
