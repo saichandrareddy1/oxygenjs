@@ -8,7 +8,11 @@ I'm Really very :smile: if you are interested to contribute here !!!
 
 # Connect with me
 
-[<img align="left" alt="sai-chandra-reddy-vuta-946b2b133 | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]                        
+[![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][3]
+[![facebook](https://cloud.githubusercontent.com/assets/17016297/18839836/0a06deb4-83d2-11e6-8078-1d0974af0f63.png)][2]
+
+[2]: https://www.linkedin.com/in/sai-chandra-reddy-vuta-946b2b133/
+[3]: https://www.facebook.com/saichandrareddy.vuta
 NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
 
 # DOCUMENTATION 
