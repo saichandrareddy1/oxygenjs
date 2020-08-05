@@ -443,9 +443,9 @@ importing the ndSearch function ndSearch(array, valuetosearch, dimentions=false)
 
 Ouput will be the Exact row and the column of the Matrix
 
-:point_right: parameter1 is for passing Array
-:point_right: parameter2 is for passing value what need to find
-:point_right: parameter3 is boolean true or false, if one dimention leave it as default(false), more than one make to true
+:point_right: parameter1 is for passing Array                                        
+:point_right: parameter2 is for passing value what need to find                                  
+:point_right: parameter3 is boolean true or false, if one dimention leave it as default(false), more than one make to true                        
 
 ### ndSearchSort
 
@@ -464,7 +464,7 @@ passing the inputs to the function
 
     2 // index value after sorting the array
 
-:point_right: parameter1 is for the array with only one dimention       
+:point_right: parameter1 is for the array with only one dimention                           
 :point_right: parameter2 is for the value to find, from array after sorting
 
 
