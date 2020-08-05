@@ -1,9 +1,23 @@
+// import {array_split} from './ndJS/array_split.js'
 
-import loadTxt from './Engine/Load.js'
-import {TypeConvertor, ColumnsMean, StandardScaler, StandardDeviation} from './Engine/Preprocessing.js'
-var result_arr = loadTxt('./Engine/iris.txt');
-var value = TypeConvertor(result_arr, 4)
-var mean_array = ColumnsMean(result_arr, 4)
-var std_array = StandardDeviation(result_arr, mean_array, 4)
-var std_sca = StandardScaler(result_arr, mean_array, std_array, 4)
-console.log(std_sca)
+// var array = [1, 2, 3, 4, 5, 6]
+// var arr_sp = array_split(array, 3)
+// console.log(arr_sp)
+
+
+// import {Linspace} from './ndJS/linSpace.js'
+// var arr = Linspace(2, 3, 5)
+// console.log("WithOut endpoint :-", arr)
+
+// var arr_e = Linspace(2, 3, 5, false)
+// console.log("With endpoint :-",arr_e)
+
+import {ndArithmetic} from './ndJS/ndArithmetic.js'
+
+
+var ar =new ndArithmetic()
+var array1 = [[1, 2], [3, 4], [3, 4]]
+var array2 = [[6, 5], [3, 4], [4, 3]]
+var val = ar.Division(array1, array2)
+
+console.log(val)
