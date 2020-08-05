@@ -1,4 +1,4 @@
-### ndJS :chart_with_upwards_trend:
+## ndJS :chart_with_upwards_trend:
 
 
 nsJS is the N dimentional Java script Libaray here we are going to Deal with many Mathmatical N Dimentional Matrix Calculations
@@ -329,14 +329,163 @@ here, now we are passing the shape into the ndZeros
 
 ### ndRandom
 
+ndRandom will take input as the shape, minrange, maxrange and will return output array with the shape given and with filled randomnumbers in the given max and min range
+
+import ndArray from ndRandom ndArray(range_min, range_max, shape=[])
+
+    import { ndArray } from './ndJS/ndRandom.js'
+
+inputting the data into the function
+
+    var val = ndArray(2, 3, [3, 3])
+    console.table(val)
+
+[console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
+
+:point_right: Ouput
+
+    ┌─────────┬────────────────────┬────────────────────┬────────────────────┐
+    │ (index) │         0          │         1          │         2          │
+    ├─────────┼────────────────────┼────────────────────┼────────────────────┤
+    │    0    │ 2.481601921186942  │ 2.292815458925495  │ 2.080122743807008  │
+    │    1    │ 2.615834949096985  │ 2.7276038222248493 │ 2.771944603710583  │
+    │    2    │ 2.9876797448895127 │ 2.897416178076491  │ 2.9369418343620173 │
+    └─────────┴────────────────────┴────────────────────┴────────────────────┘
+
+:point_right: shape  Parameter is the shape pass the array with 2 elements with rows and columns
+:point_right: range_min this parameter is for minimum value 
+:point_right: range_max this parameter is for maximum value
+
 
 ### ndRange
+
+ndRange is function which creates the multi dimentional matrix and will add the number in some range here shape is the mutidimentional shape, [#rows, #columns] columns will form the range of the matrix for example we are passing shape with [3, 4], 3 says about the rows and 4 says about the column and the range will be from  0, 1, 2, 3
+
+importing the ndRange from rangefile ndRange(shape=[])
+
+    import { ndRange } from './ndJS/ndRange.js'
+
+inputing the shape into the function 
+
+    var val = ndRange([3, 4])
+    console.table(val)
+
+[console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
+
+:point_right: OutPut
+
+        ┌─────────┬───┬───┬───┬───┐
+        │ (index) │ 0 │ 1 │ 2 │ 3 │
+        ├─────────┼───┼───┼───┼───┤
+        │    0    │ 0 │ 1 │ 2 │ 3 │
+        │    1    │ 0 │ 1 │ 2 │ 3 │
+        │    2    │ 0 │ 1 │ 2 │ 3 │
+        └─────────┴───┴───┴───┴───┘
+
+:point_right: Parameter is the shape pass the array with 2 elements with rows and columns
 
 
 ### ndReshape
 
+ndReshape is the functions will take array with only single dimention not more than that, next you need to pass what shape you need as output n dimentional array
+
+import ndreshape function ndReshape(ReshapeArray, new_size=[])
+
+    import { ndReshape } from './ndJS/ndReshape.js'
+
+Passing inputs to the ndReshape function
+
+    var a = [1, 2, 3, 4, 5, 6]
+    var val = ndReshape(a, [2, 3])
+    console.table(val)
+
+[console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
+
+:point_right: Output
+
+    ┌─────────┬───┬───┬───┐
+    │ (index) │ 0 │ 1 │ 2 │
+    ├─────────┼───┼───┼───┤
+    │    0    │ 1 │ 2 │ 3 │
+    │    1    │ 4 │ 5 │ 6 │
+    └─────────┴───┴───┴───┘
+
+:point_right: parameter one is the array only single dimentional array
+:point_right: parameter two is the needed shaped 
 
 ### ndSearch
 
+ndSearch is the function to search the value in the Matrix and then it will return the index where the value was present in the matrix
+
+importing the ndSearch function ndSearch(array, valuetosearch, dimentions=false)
+
+    import {ndSearch} from './ndJS/ndsearch.js'
+
+:point_right: passing input to the function Single dimention
+
+    var a = [1, 2, 3, 4, 5, 6]
+    var val = ndSearch(a, 2, false)
+    console.log(val)
+
+:point_right: Output
+
+    1 // Index Number
+
+:point_right: passing input to the function MultiDimention dimention
+
+    var a = [[1, 2, 3], [4, 5, 6]]
+    var val = ndSearch(a, 4, true)
+    console.log(val)
+
+:point_right: Output 
+
+    The value is a row and column [1][0]
+
+Ouput will be the Exact row and the column of the Matrix
+
+:point_right: parameter1 is for passing Array
+:point_right: parameter2 is for passing value what need to find
+:point_right: parameter3 is boolean true or false, if one dimention leave it as default(false), more than one make to true
 
 ### ndSearchSort
+
+ndSearchSort will return the index value, first it will sort the array and then will search for the value in the array later finding the value it will return the index value
+
+importing the ndSearchSort ndSearchSort(array, valuetosearch)
+
+    import { ndSearchSort } from './ndJS/ndSearchSort.js'
+
+passing the inputs to the function
+
+    var a = [1, 2, 3, 4, 5, 6]
+    var val = ndSearchSort(a, 3)
+
+:point_right: Output
+
+    2 // index value after sorting the array
+
+:point_right: parameter1 is for the array with only one dimention       
+:point_right: parameter2 is for the value to find, from array after sorting
+
+
+
+
+Feel free to give a star for the [repository](https://github.com/saichandrareddy1/OxygenJS)
+
+Become a contributer :heart::heart::heart:
+
+### Connect with me
+
+[![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][1]
+[![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][3]
+[![facebook](https://cloud.githubusercontent.com/assets/17016297/18839836/0a06deb4-83d2-11e6-8078-1d0974af0f63.png)][2]
+
+[1]: https://github.com/saichandrareddy1
+[2]: https://www.linkedin.com/in/sai-chandra-reddy-vuta-946b2b133/
+[3]: https://www.facebook.com/saichandrareddy.vuta
+
+### Connect with me on Community
+NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
+
+### Thanks for the reading
+

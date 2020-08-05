@@ -12,11 +12,12 @@
 // var arr_e = Linspace(2, 3, 5, false)
 // console.log("With endpoint :-",arr_e)
 
-import { ndZeros } from './ndJS/ndZeros.js'
 
 
+import { ndSearchSort } from './ndJS/ndSearchSort.js'
 // var array1 = [[1, 2], [3, 4], [3, 4]]
 // var array2 = [1, 2]
-var val = ndZeros([3, 3])
+var a = [1, 2, 3, 4, 5, 6]
+var val = ndSearchSort(a, 3)
 
-console.table(val)
+console.log(val)
