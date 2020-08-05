@@ -23,25 +23,17 @@ Don't be confuse,
 
 Yes I'm done with the installation then what to do ?:neutral_face::neutral_face:
 
-        You will see some Folders :file_folder:
+You will see some Folders :file_folder:
 
-        :file_folder: Docs
-        :file_folder: Engine
-        :file_folder: LinalgJS
-        :file_folder: ndJS
-        :file_folder: Data
-        :file_folder: Regression
+:point_right: :file_folder:[Engine](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md) is a Library with Some Preprocessing Techniques for Machine Learning   
 
+:point_right: :file_folder:[LinalgJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md) is a Numerical JavaScript Library for Linear algebra and Matrix 
 
-:point_right: [Engine](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md) is a Library with Some Preprocessing Techniques for Machine Learning   
+:point_right: :file_folder:[ndJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md) is the N dimentional Libraray which helps to creates the Matrix form very easliy
 
-:point_right: [LinalgJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md) is a Numerical JavaScript Library for Linear algebra and Matrix 
+:point_right: :file_folder:[Data](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Data.md) is the Data containing inbulit line inbulit machine learning data
 
-:point_right: [ndJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md) is the N dimentional Libraray which helps to creates the Matrix form very easliy
-
-:point_right: [Data](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Data.md) is the Data containing inbulit line inbulit machine learning data
-
-:point_right: [Regression](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md) is about machine learning Learning Regression algorithms
+:point_right: :file_folder:[Regression](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md) is about machine learning Learning Regression algorithms
 
 
 
