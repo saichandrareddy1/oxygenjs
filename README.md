@@ -3,16 +3,16 @@
 Hello Every One I'm a JavaScript :heart:er who is trying to bulid Machine Learning libaray in JavaScript, I really excited to create Machine Learning Library in JavaScript
 
 
-# Guide to Install
+### Guide to Install
 :point_right: [Installations](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Installation.md)   
 :point_right: [data](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Data.md)                     
 :point_right: [Engine](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md)                
 
-# Numerical JavaScript
+### Numerical JavaScript
 :point_right: [LinalgJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md)            
 :point_right: [ndJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md)                    
 
-# Machine Learning Library
+### Machine Learning Library
 :point_right: [Regression](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)           
 :point_right: [Classification](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)       
 :point_right: [clustering](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)           
@@ -37,6 +37,6 @@ NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
 
 ### DOCUMENTATION 
 
-Very soon i will release with all the ML algorithmns
+Now Numerical [<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][jsplaylist] was going to Update By Agust 15th,Very soon will release with all the ML algorithmns in soon :v:
 
-### Thanks
+### Thanks :pray::pray::pray:
