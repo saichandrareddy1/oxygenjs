@@ -12,12 +12,11 @@
 // var arr_e = Linspace(2, 3, 5, false)
 // console.log("With endpoint :-",arr_e)
 
-import {ndArithmetic} from './ndJS/ndArithmetic.js'
+import { ndZeros } from './ndJS/ndZeros.js'
 
 
-var ar =new ndArithmetic()
-var array1 = [[1, 2], [3, 4], [3, 4]]
-var array2 = [[6, 5], [3, 4], [4, 3]]
-var val = ar.Division(array1, array2)
+// var array1 = [[1, 2], [3, 4], [3, 4]]
+// var array2 = [1, 2]
+var val = ndZeros([3, 3])
 
-console.log(val)
+console.table(val)

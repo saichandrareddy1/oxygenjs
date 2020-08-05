@@ -51,8 +51,8 @@ importing the Linspace from ndJS library
 working with function Linspace(startvalue, endvalue, numberofsteps, endpoint=true)
 
 Here, in linspace function we are having two types of the choices      
-:point_right: endpoint=true
-:point_right: endpoint=flase
+:point_right: endpoint=true                                    
+:point_right: endpoint=flase                                       
 
 :point_right: First working with default means enpoint=true
 
@@ -74,10 +74,10 @@ Here, in linspace function we are having two types of the choices
 
 Explaning about the parameters
 
-:point_right: Startvalue is about the starting number of the array
-:point_right: Endvalue is about the Ending number of the array     
-:point_right: NumberofSteps is about the different number of the steps in between start and end value
-:point_right: endpoint is about the printing the end value or not
+:point_right: Startvalue is about the starting number of the array            
+:point_right: Endvalue is about the Ending number of the array                           
+:point_right: NumberofSteps is about the different number of the steps in between start and end value                        
+:point_right: endpoint is about the printing the end value or not         
 
 
 ### ndArithmetic
@@ -177,17 +177,154 @@ Using the Division function (array1, arra2)
 Division is for the Dividing the Numbers in matrix in the form of the element by the element
 
 
+:point_right: Module or Remainder % :grey_exclamation:
 
+intilizing the class object 
 
+    var ar =new ndArithmetic()
+
+Using the Division function (array1, arra2)
+
+    var array1 = [[1, 2], [3, 4], [3, 4]]
+    var array2 = [[6, 5], [3, 4], [4, 3]]
+    var val = ar.Module(array1, array2)
+    console.log(val)
+
+:point_right: parameter1 and parameter2 are the array's
+
+:point_right: Output
+
+    [ [ 1, 2 ], [ 0, 0 ], [ 3, 1 ] ]  
+
+Module is about the finding Element wise remainder of the all the elements in Matrix
+
+:point_right: DivMod :heavy_division_sign: 
+
+intilizing the class object 
+
+    var ar =new ndArithmetic()
+
+Using the DivMod function (array1, arra2)
+
+    var array1 = [[1, 2], [3, 4], [3, 4]]
+    var array2 = [[6, 5], [3, 4], [4, 3]]
+    var val = ar.DivMod(array1, array2)
+    console.log(val)
+
+:point_right: parameter1 and parameter2 are the array's
+
+:point_right: Output
+
+    [
+        [
+            [ 0.16666666666666666, 0.4 ],
+            [ 1, 1 ],
+            [ 0.75, 1.3333333333333333 ]
+        ],
+        [ 
+            [ 1, 2 ], [ 0, 0 ], [ 3, 1 ] 
+        ]
+    ] 
+
+DivMod will perform both the things one is element wise division and another one is Element wise module(means finding the remainder)
+
+:point_right: Power :arrow_heading_up:
+
+intilizing the class object 
+
+    var ar =new ndArithmetic()
+
+Using the Power function (array1, arra2)
+
+    var array1 = [[1, 2], [3, 4], [3, 4]]
+    var array2 = [[6, 5], [3, 4], [4, 3]]
+    var val = ar.Power(array1, array2)
+    console.log(val)
+
+:point_right: parameter1 and parameter2 are the array's
+
+:point_right: Output
+
+    [ [ 1, 32 ], [ 27, 256 ], [ 81, 64 ] ]  
+
+Power is for the making the power to another Numbers in matrix in the form of the element by the element
 
 
 ### ndMul
 
+ndMul is about the calculating the matrix and the vector this is mostly use ful at the time of the multiplying weights and the inputs
+
+importing the matmul from the ndMul 
+
+    import {matmul} from './ndJS/ndMul.js'
+
+Multiplying the matrix and vector
+
+    var array1 = [[1, 2], [3, 4], [3, 4]]
+    var array2 = [1, 2]
+    var val = matmul(array1, array2)
+
+:point_right: Output
+
+    [ 1, 4, 3, 8, 3, 8 ]
+
+:point_right: Parameter one is the matrix                                              
+:point_right: Parameter two is the vector                                                 
+
 
 ### ndOnes
 
+ndOnes is the function which takes the shape and will return array with all the 1, for example shape=[3, 3] then we will get 3*3 matrix will all the ones
+
+importing the ndOnes from ndJS
+
+    import { ndOnes } from './ndJS/ndOnes.js'
+
+here, now we are passing the shape into the ndOnes
+
+    var val = ndOnes([3, 3])
+    console.table(val)
+
+[console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
+
+:point_right: Output
+
+    ┌─────────┬───┬───┬───┐
+    │ (index) │ 0 │ 1 │ 2 │
+    ├─────────┼───┼───┼───┤
+    │    0    │ 1 │ 1 │ 1 │
+    │    1    │ 1 │ 1 │ 1 │
+    │    2    │ 1 │ 1 │ 1 │
+    └─────────┴───┴───┴───┘
+
+:point_right: Parameter is the shape pass the array with 2 elements with rows and columns
 
 ### ndZeros
+
+ndZeros is the function which takes the shape and will return array with all the 0, for example shape=[3, 3] then we will get 3*3 matrix will all the Zeros
+
+importing the ndZeros from ndJS
+
+    import { ndZeros } from './ndJS/ndZeros.js'
+
+here, now we are passing the shape into the ndZeros
+
+    var val = ndZeros([3, 3])
+    console.table(val)
+
+[console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
+
+:point_right: Output
+
+    ┌─────────┬───┬───┬───┐
+    │ (index) │ 0 │ 1 │ 2 │
+    ├─────────┼───┼───┼───┤
+    │    0    │ 0 │ 0 │ 0 │
+    │    1    │ 0 │ 0 │ 0 │
+    │    2    │ 0 │ 0 │ 0 │
+    └─────────┴───┴───┴───┘
+
+:point_right: Parameter is the shape pass the array with 2 elements with rows and columns
 
 
 ### ndRandom
