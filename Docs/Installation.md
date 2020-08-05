@@ -11,11 +11,11 @@ Where to keep after cloning ?:neutral_face::neutral_face:
 
 Don't be confuse, 
 
-:point_right: First open your project repo
-:point_right: And open Git or Terminal in Ubuntu 
+:point_right: First open your project repo           
+:point_right: And open Git or Terminal in Ubuntu                
 :point_right: IF you are windows user Dounload [it](https://github.com/saichandrareddy1/OxygenJS)
-:point_right: Done, you are Intalled all the thing
-:point_right: Working with ubuntu use this command
+:point_right: Done, you are Intalled all the thing                     
+:point_right: Working with ubuntu use this command                                 
 
         git clone git@github.com:saichandrareddy1/OxygenJS.git
 
