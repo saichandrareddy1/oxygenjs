@@ -4,18 +4,18 @@ Hello Every One I'm a JavaScript :heart:er who is trying to bulid Machine Learni
 
 
 # Guide to Install
-[Installations](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Installation.md)   
-[data]https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Data.md)                     
-[Engine](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md)                
+:point_right: [Installations](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Installation.md)   
+:point_right: [data](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Data.md)                     
+:point_right: [Engine](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md)                
 
 # Numerical JavaScript
-[LinalgJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md)            
-[ndJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md)                    
+:point_right: [LinalgJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md)            
+:point_right: [ndJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md)                    
 
 # Machine Learning Library
-[Regression](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)           
-[Classification](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)       
-[clustering](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)           
+:point_right: [Regression](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)           
+:point_right: [Classification](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)       
+:point_right: [clustering](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)           
 
 
 ### What I need
