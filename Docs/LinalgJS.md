@@ -12,7 +12,7 @@ Linalg is a Linear Algebra Library which will give answer's for the determinants
     * [vdot](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#vdot)
     * [identity](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#vdot)
     * [eye](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#eye)
-    * [inner] (https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#inner)          
+    * [inner](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#inner)          
    
 
 
@@ -224,8 +224,8 @@ inputing the shape into the function with rowmove is True
     │    2    │ 0 │ 0 │ 0 │
     └─────────┴───┴───┴───┘
 
-:point_right: parameter1 is for the shape of the matrix                                    
-:point_right: parameter2 is for the index, from where identity should form
+:point_right: parameter1 is for the shape of the matrix                                          
+:point_right: parameter2 is for the index, from where identity should form                       
 :point_right: parameter3 is for the rowmove true for row type identity , fasle for the column type identity
 
 

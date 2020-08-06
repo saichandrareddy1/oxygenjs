@@ -352,9 +352,9 @@ inputting the data into the function
     │    2    │ 2.9876797448895127 │ 2.897416178076491  │ 2.9369418343620173 │
     └─────────┴────────────────────┴────────────────────┴────────────────────┘
 
-:point_right: shape  Parameter is the shape pass the array with 2 elements with rows and columns
-:point_right: range_min this parameter is for minimum value 
-:point_right: range_max this parameter is for maximum value
+:point_right: shape  Parameter is the shape pass the array with 2 elements with rows and columns 
+:point_right: range_min this parameter is for minimum value                                      
+:point_right: range_max this parameter is for maximum value                                      
 
 
 ### ndRange
@@ -410,8 +410,8 @@ Passing inputs to the ndReshape function
     │    1    │ 4 │ 5 │ 6 │
     └─────────┴───┴───┴───┘
 
-:point_right: parameter one is the array only single dimentional array
-:point_right: parameter two is the needed shaped 
+:point_right: parameter one is the array only single dimentional array                           
+:point_right: parameter two is the needed shaped                           
 
 ### ndSearch
 

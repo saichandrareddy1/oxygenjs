@@ -4,6 +4,6 @@ Engine is for the machine learning purpose which will have many function regardi
 
 Present we are having some Functions
 
-:point_right: Load 
-:point_right: Preprocessing
-:point_right: textCount
+:point_right: Load                                                                               
+:point_right: Preprocessing                                                                      
+:point_right: textCount                                                                          
