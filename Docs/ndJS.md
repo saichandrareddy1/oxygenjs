@@ -469,8 +469,9 @@ passing the inputs to the function
 
 
 
+### Give a Star :star::star::star:
+:point_right: Feel free to give a star for the [repository](https://github.com/saichandrareddy1/OxygenJS) :star::star::star:
 
-Feel free to give a star for the [repository](https://github.com/saichandrareddy1/OxygenJS)
 
 Become a contributer :heart::heart::heart:
 

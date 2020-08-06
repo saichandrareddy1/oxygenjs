@@ -35,6 +35,10 @@ I'm Really very :smile: if you are interested to contribute here !!!
 ### Connect with me on Community
 NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
 
+### Give a Star :star::star::star:
+
+:point_right: Feel free to give a star for the [repository](https://github.com/saichandrareddy1/OxygenJS) :star::star::star:
+
 ### DOCUMENTATION 
 
 Now Numerical  <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="26" height="20">  was going to Update By Agust 15th,Very soon will release with all the ML algorithmns :v::v::v:
