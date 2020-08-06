@@ -3,8 +3,8 @@
 Linalg is a Linear Algebra Library which will give answer's for the determinants, matrix multiplication like inner product, dot, vectordot, etc...
 
 
-:point_right: det                                                                               
-:point_right: mat                                                                               
+:point_right: [det](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#det)          
+:point_right: [mat](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#mat)                    
 
 
 ### det
@@ -13,11 +13,11 @@ det is the having two function det and invDet, det is for the determinent of the
 
 :point_right: determinant                                                        
 
-<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/det.PNG" width="100" height="45">
+<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/det.PNG" width="800" height="150">
 
 :point_right: Inverse determinant
 
-<img src= "https://github.com/saichandrareddy1/OxygenJS/blob/master/images/invDet.PNG" width="100" height="45">
+<img src= "https://github.com/saichandrareddy1/OxygenJS/blob/master/images/invDet.PNG" width="800" height="150">
 
 #### det function
 
