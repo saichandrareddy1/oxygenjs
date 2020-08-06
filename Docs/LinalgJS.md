@@ -3,8 +3,16 @@
 Linalg is a Linear Algebra Library which will give answer's for the determinants, matrix multiplication like inner product, dot, vectordot, etc...
 
 
-:point_right: [det](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#det)          
-:point_right: [mat](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#mat)                    
+* :point_right: [determinant](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#det)       
+    * [det function](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#det-function)
+    * [invDet](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#inverse-determinant)
+* :point_right: [mat](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#mat)      
+    * mat
+    * dot
+    * vdot
+    * identity
+    * eye
+    * inner              
 
 
 ### det
@@ -13,11 +21,11 @@ det is the having two function det and invDet, det is for the determinent of the
 
 :point_right: determinant                                                        
 
-<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/det.PNG" width="800" height="150">
+<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/det.PNG" width="600" height="150">
 
 :point_right: Inverse determinant
 
-<img src= "https://github.com/saichandrareddy1/OxygenJS/blob/master/images/invDet.PNG" width="800" height="150">
+<img src= "https://github.com/saichandrareddy1/OxygenJS/blob/master/images/invDet.PNG" width="600" height="150">
 
 #### det function
 
@@ -54,7 +62,7 @@ inputing the array to the function
     console.log(val)
 
 
-:point_right:
+:point_right: Output
 
     [
         [ -1.6666666666666665, 0.6666666666666666 ],
@@ -66,3 +74,25 @@ inputing the array to the function
 
 ### mat
 
+
+##### mat
+
+
+
+##### dot
+
+
+
+##### vdot
+
+
+
+##### identity
+
+
+
+##### eye
+
+
+
+##### inner
