@@ -16,9 +16,11 @@
 
 
 
-import { inner } from './LinalgJS/mat.js'
+// import { inner } from './LinalgJS/mat.js'
 
-var a = [[1, 2], [4, 5]]
-var b = [[2, 3], [4, 6]]
-var val = inner(a, b)
-console.table(val)
+// var a = [[1, 2], [4, 5]]
+// var b = [[2, 3], [4, 6]]
+// var val = inner(a, b)
+// console.table(val)
+s
+
