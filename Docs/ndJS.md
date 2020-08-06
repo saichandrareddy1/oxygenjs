@@ -352,7 +352,7 @@ inputting the data into the function
     │    2    │ 2.9876797448895127 │ 2.897416178076491  │ 2.9369418343620173 │
     └─────────┴────────────────────┴────────────────────┴────────────────────┘
 
-:point_right: shape  Parameter is the shape pass the array with 2 elements with rows and columns 
+:point_right: shape  Parameter is the shape pass the array with 2 elements with rows and columns                                         
 :point_right: range_min this parameter is for minimum value                                      
 :point_right: range_max this parameter is for maximum value                                      
 
