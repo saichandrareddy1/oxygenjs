@@ -488,5 +488,4 @@ Become a contributer :heart::heart::heart:
 ### Connect with me on Community
 NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
 
-### Thanks for the reading
-
+### Thanks for the reading :pray::pray::pray:

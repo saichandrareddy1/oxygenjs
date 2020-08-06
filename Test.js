@@ -15,8 +15,10 @@
 
 
 
-import {invDet} from './LinalgJS/determinant.js'
+
+import { inner } from './LinalgJS/mat.js'
 
 var a = [[1, 2], [4, 5]]
-var val = invDet(a)
-console.log(val)
+var b = [[2, 3], [4, 6]]
+var val = inner(a, b)
+console.table(val)

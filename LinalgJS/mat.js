@@ -1,5 +1,5 @@
 
-function mat(m1, m2) {
+function matrixMul(m1, m2) {
     var result = [];
     for (var i = 0; i < m1.length; i++) {
         result[i] = [];
@@ -50,7 +50,7 @@ function identity(shape=[]) {
     return iden_matrix
 }
 
-function eye(shape=[], iden, rowmove =true){
+function eye(shape=[], iden, rowmove =false){
     
     
     if (rowmove) {
@@ -96,7 +96,6 @@ function inner(array1, array2) {
         for (let j = 0; j < array2[0].length; j++) {
             var sum = 0
             for (let k = 0; k < array1[0].length; k++) {
-                console.log(i, j, j, k)
                 sum = sum + array1[i][k] * array2[j][k]   
             }
             inner_array[i][j] = sum
@@ -115,4 +114,4 @@ function inner(array1, array2) {
 // console.table(obj)
 
 
-export {eye, identity, vdot, dot, mat, inner}
+export {eye, identity, vdot, dot, matrixMul, inner}

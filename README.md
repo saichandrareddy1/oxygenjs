@@ -2,6 +2,14 @@
 
 Hello Every One I'm a <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="26" height="20"> :heart:er who is trying to bulid Machine Learning libaray in <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="26" height="20">, I really excited to create Machine Learning Library in JavaScript
 
+### prerequisite
+
+we need only one libraries as the preprequisites 
+
+:point_right: mathjs   
+
+    npm install mathjs
+    
 
 ### Guide to Install
 :point_right: [Installations](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Installation.md)   
@@ -39,10 +47,9 @@ NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
 
 :point_right: Feel free to give a star for the [repository](https://github.com/saichandrareddy1/OxygenJS) :star::star::star:
 
-### DOCUMENTATION 
+### Documentation
 
 Now Numerical  <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="26" height="20">  was going to Update By Agust 15th,Very soon will release with all the ML algorithmns :v::v::v:
-
 
 
 ### Thanks :pray::pray::pray:
