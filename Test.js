@@ -14,10 +14,9 @@
 
 
 
-import { ndSearchSort } from './ndJS/ndSearchSort.js'
-// var array1 = [[1, 2], [3, 4], [3, 4]]
-// var array2 = [1, 2]
-var a = [1, 2, 3, 4, 5, 6]
-var val = ndSearchSort(a, 3)
 
+import {invDet} from './LinalgJS/determinant.js'
+
+var a = [[1, 2], [4, 5]]
+var val = invDet(a)
 console.log(val)

@@ -13,10 +13,55 @@ det is the having two function det and invDet, det is for the determinent of the
 
 :point_right: determinant                                                        
 
-<img src="C:\Users\SUPERMAN\Documents\GitHub\OxygenJS\images\det.png" width="26" height="20">
+<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/det.PNG" width="100" height="45">
 
-    inverse det =
+:point_right: Inverse determinant
 
+<img src= "https://github.com/saichandrareddy1/OxygenJS/blob/master/images/invDet.PNG" width="100" height="45">
+
+#### det function
+
+In determinant function we will pass the input as the 2d matrix and will return the determinant value, you can see the formula from :point_up:
+
+importing the determinant function
+
+    import {Det} from './LinalgJS/determinant.js'
+
+we are giving input as the array with 2 dimention
+
+    var a = [[1, 2], [4, 5]]
+    var val = Det(a)
+    console.log(val)
+
+:point_right: Ouput 
+
+    -3 // final value after applying the determinant
+
+:point_right: Parameter is the array with two dimentions
+
+#### inverse determinant 
+
+inverse determinant will take input as the array and will return output as the matrix, for the mathematical calculation follow the :point_up: formula 
+
+importing the invDet from the determinant
+
+    import {invDet} from './LinalgJS/determinant.js'
+
+inputing the array to the function 
+
+    var a = [[1, 2], [4, 5]]
+    var val = invDet(a)
+    console.log(val)
+
+
+:point_right:
+
+    [
+        [ -1.6666666666666665, 0.6666666666666666 ],
+        [ 1.3333333333333333, -0.3333333333333333 ]
+    ]
+
+:point_right: parameter is the array with 2 dimention
 
 
 ### mat
