@@ -24,40 +24,56 @@
 // console.table(val)
 
 
-import {TypeConvertor, ColumnsMean, StandardScaler,StandardDeviation, 
-    LabelEncoder, shuffleArray, train_test_split, featuresAndLabels} 
-    from "./Engine/Preprocessing.js"
+// import {TypeConvertor, ColumnsMean, StandardScaler,StandardDeviation, 
+//     LabelEncoder, shuffleArray, train_test_split, featuresAndLabels} 
+//     from "./Engine/Preprocessing.js"
+
+
 import loadTxt from "./Engine/Load.js"
 
 
 var data = "iris.txt"
-
 var re= loadTxt(data)
-//console.log(re)
+// console.table(re)
 
-var ty = TypeConvertor(re, 4)
+import { train_test_split, featuresAndLabels } from "./Engine/Preprocessing.js"
+import { textCount } from "./Engine/textCount.js"
+
+//var ty = TypeConvertor(re, 4)
 //console.log(ty)
 
-var c = ColumnsMean(re, 4)
-//console.log(c)
+// var c = ColumnsMean(re, 4)
+// console.log(c)
 
-var st = StandardScaler(re, 4)
-//console.log(st)
+// var st = StandardScaler(re, 4)
+// console.log(st)
 
-var sd = StandardDeviation(re, 4)
-//console.log(sd)
+// var sd = StandardDeviation(re, 4)
+// console.log(sd)
 
-var lb = LabelEncoder(re, 4)
+// var lb = LabelEncoder(re, 4)
 // console.log(lb)
 
-var sf = shuffleArray(re)
-//console.log(sf)
+// var array = [1, 2,3 ,4, 5, 6, 7]
+// var sf = shuffleArray(array)
+// console.log(sf)
 
-var fl = featuresAndLabels(re, 5)
-//console.log(fl)
+// var fl = featuresAndLabels(re, 5)
+// var fe = fl[0]
+// var l = fl[1]
 
-var fe = fl[0]
-var l = fl[1]
+// console.log(fe, l)
 
-var data = train_test_split(fe, l, 20)
-console.log(data)
+
+
+// var data = train_test_split(fe, l, 20)
+// var X_train = data[0]
+// var X_test = data[1]
+// var y_train = data[2]
+// var y_test = data[3]
+// console.log(data)
+
+
+var re  =  textCount('test.txt', 'to')
+console.log(re)
+
