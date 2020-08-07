@@ -20,15 +20,15 @@ we need only one libraries as the preprequisites
 * :point_right: [LinalgJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md)  
 
     * :point_right: [determinant](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#det)       
-        * [det function](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#det-function)
-        * [invDet](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#inverse-determinant)
+        * :point_right: [det function](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#det-function)
+        * :point_right: [invDet](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#inverse-determinant)
     * :point_right: [mat](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#mat)      
-         * [mat](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#mat-1)
-         * [dot](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#dot)
-         * [vdot](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#vdot)
-         * [identity](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#vdot)
-         * [eye](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#eye)
-         * [inner](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#inner)
+         * :point_right: [mat](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#mat-1)
+         * :point_right: [dot](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#dot)
+         * :point_right: [vdot](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#vdot)
+         * :point_right: [identity](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#vdot)
+         * :point_right: [eye](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#eye)
+         * :point_right: [inner](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#inner)
 
          
 * :point_right: [ndJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md)                    
