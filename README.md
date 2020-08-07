@@ -17,9 +17,35 @@ we need only one libraries as the preprequisites
 :point_right: [Engine](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md)                
 
 ### Numerical JavaScript
-:point_right: [LinalgJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md)            
-:point_right: [ndJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md)                    
+* :point_right: [LinalgJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md)  
 
+    * :point_right: [determinant](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#det)       
+        * [det function](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#det-function)
+        * [invDet](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#inverse-determinant)
+    * :point_right: [mat](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#mat)      
+         * [mat](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#mat-1)
+         * [dot](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#dot)
+         * [vdot](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#vdot)
+         * [identity](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#vdot)
+         * [eye](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#eye)
+         * [inner](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md#inner)
+
+         
+* :point_right: [ndJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md)                    
+
+    * :point_right: [array_split](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md#array-split)                                                                
+    * :point_right: [linSpace](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md#linspace)                                                          
+    * :point_right: [ndArithmetic](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md#ndarithmetic)                                                                   
+    * :point_right: [ndMul](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md#ndmul)                                                                       
+    * :point_right: [ndOnes](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md#ndones)                                                            
+    * :point_right: [ndZeros](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md#ndzeros)                                                             
+    * :point_right: [ndRandom](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md#ndrandom)                                                    
+    * :point_right: [ndRange](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md#ndrange)                                                                      
+    * :point_right: [ndReshape](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md#ndreshape)                                                   
+    * :point_right: [ndSearch](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md#ndsearch)                                                                    
+    * :point_right: [ndSearchSort](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/ndJS.md#ndsearchsort) 
+
+        
 ### Machine Learning Library
 :point_right: [Regression](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)           
 :point_right: [Classification](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)       

@@ -22,5 +22,42 @@
 // var b = [[2, 3], [4, 6]]
 // var val = inner(a, b)
 // console.table(val)
-s
 
+
+import {TypeConvertor, ColumnsMean, StandardScaler,StandardDeviation, 
+    LabelEncoder, shuffleArray, train_test_split, featuresAndLabels} 
+    from "./Engine/Preprocessing.js"
+import loadTxt from "./Engine/Load.js"
+
+
+var data = "iris.txt"
+
+var re= loadTxt(data)
+//console.log(re)
+
+var ty = TypeConvertor(re, 4)
+//console.log(ty)
+
+var c = ColumnsMean(re, 4)
+//console.log(c)
+
+var st = StandardScaler(re, 4)
+//console.log(st)
+
+var sd = StandardDeviation(re, 4)
+//console.log(sd)
+
+var lb = LabelEncoder(re, 4)
+// console.log(lb)
+
+var sf = shuffleArray(re)
+//console.log(sf)
+
+var fl = featuresAndLabels(re, 5)
+//console.log(fl)
+
+var fe = fl[0]
+var l = fl[1]
+
+var data = train_test_split(fe, l, 20)
+console.log(data)
