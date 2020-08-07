@@ -12,9 +12,13 @@ we need only one libraries as the preprequisites
     
 
 ### Guide to Install
-:point_right: [Installations](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Installation.md)   
-:point_right: [data](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Data.md)                     
-:point_right: [Engine](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md)                
+* :point_right: [Installations](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Installation.md)   
+
+    * 
+
+* :point_right: [data](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Data.md)          
+
+* :point_right: [Engine](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md)                
 
 ### Numerical JavaScript
 * :point_right: [LinalgJS](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/LinalgJS.md)  
