@@ -1,7 +1,7 @@
 function ndZeros(shape=[]){
     var random_array = new Array()
     if(shape[0] === 0 && shape[1] > 0){
-        console.log("Asking About 1D array")
+        //console.log("Asking About 1D array")
         for(var i=0; i == shape[0]; i++){
             for(var j=0; j<= shape[1]-1; j++){
                 random_array.push(0)
