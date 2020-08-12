@@ -11,7 +11,6 @@
     * [MeanSquareLogError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#mean-square-log-error)
     * [r2_Score](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#r2-score)
     * [AccuracyScore](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#accuracy-score)
-    * [EmptyMatrix](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#empty-matrix)
     * [ConfusionMatrix](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#confusion-matrix)
     * [Recall](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#recall)
     * [Precision](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#precision)
@@ -225,7 +224,7 @@ console.log(score)
 
 Classification accuracy is our starting point. It is the number of correct predictions made divided by the total number of predictions made, multiplied by 100 to turn it into a percentage [Read More...](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
 
-<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/acc.png" width="600" height="150">
+<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/acc.PNG" width="600" height="150">
 
 Importing the accuracy score function (y_test=[], y_pred=[])
 
@@ -253,14 +252,11 @@ console.log(acc_score)
 :point_right: **y_pred parameter** is the array and predicting data
 
 
-#### Empty Matrix
-
-
 #### Confusion Matrix
 
 A confusion matrix is a table that is often used to describe the performance of a classification model (or “classifier”) on a set of test data for which the true values are known. It allows the visualization of the performance of an algorithm. [Read More...](https://en.wikipedia.org/wiki/Confusion_matrix)
 
-<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/cm.png" width="600" height="150">
+<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/cm.png" width="600" height="250">
 
 Importing the confusion Matrix function (y_test=[], y_pred=[])
 
