@@ -18,10 +18,14 @@ Present we are having some Functions
     * [shuffleArray](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md#shufflearray)
     * [train_test_split](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md#train_test_split)
     * [featuresAndLabels](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md#featuresandlabels) 
-                                                   
+                               
 * :point_right: textCount       
 
-    * [textCount](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md#textcount)                                                                  
+    * [textCount](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md#textcount)      
+
+* :point_right: Gradient Decent
+
+    * [Gradient Decent Algorithm](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md#gradient-decent)                                                             
 
 
 
