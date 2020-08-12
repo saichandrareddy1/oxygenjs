@@ -2,6 +2,23 @@
 
 ***This docs include all the scores and errors***, it help's to find the data is working or not
 
+
+* Metrices
+    * [SquareError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#squared-error)
+    * [MeanSquaredError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#mean-square-error)
+    * [MeanAbsoluteError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#mean-absolute-error)
+    * [RootMeanSquareError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#root-mean-square-error)
+    * [MeanSquareLogError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#mean-square-log-error)
+    * [r2_Score](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#r2-score)
+    * [AccuracyScore](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#accuracy-score)
+    * [EmptyMatrix](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#empty-matrix)
+    * [ConfusionMatrix](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#confusion-matrix)
+    * [Recall](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#recall)
+    * [Precision](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#precision)
+    * [f1_Score](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#f1_score)
+    * [Classification_report](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#classification-report)
+
+
 #### Squared Error
 
 Suqared error is the distance between the predicted value and the actual value and then we will do summitation of the all the values.
@@ -32,7 +49,7 @@ console.log(SquareError)
 0.37044000000000005 // Squared Error
 
 ```
-:point_right: **y_test parameter** is the array and testing data
+:point_right: **y_test parameter** is the array and testing data                            
 :point_right: **y_pred parameter** is the array and predicting data
 
 #### Mean Square Error
@@ -64,7 +81,7 @@ console.log(mean_SquareError)
 0.05292000000000001 // mean_Squared Error
 
 ```
-:point_right: **y_test parameter** is the array and testing data
+:point_right: **y_test parameter** is the array and testing data                              
 :point_right: **y_pred parameter** is the array and predicting data
 
 
@@ -97,7 +114,7 @@ console.log(mean_abs_Error)
 0.2045714 // mean_absoulte Error
 
 ```
-:point_right: **y_test parameter** is the array and testing data
+:point_right: **y_test parameter** is the array and testing data                              
 :point_right: **y_pred parameter** is the array and predicting data
 
 
@@ -131,7 +148,7 @@ console.log(root_mean_Error)
 0.2300434741 // root mean squared Error
 
 ```
-:point_right: **y_test parameter** is the array and testing data
+:point_right: **y_test parameter** is the array and testing data                              
 :point_right: **y_pred parameter** is the array and predicting data
 
 
@@ -140,7 +157,7 @@ console.log(root_mean_Error)
 In case of RMSLE, you take the log of the predictions and actual values. [Read More....](https://www.quora.com/What-is-the-difference-between-an-RMSE-and-RMSLE-logarithmic-error-and-does-a-high-RMSE-imply-low-RMSLE#:~:text=In%20case%20of-,Root%20Mean%20Squared%20Error%20(RMSE)%20and%20Root%20Mean%20Squared%20Logarithmic,model%20and%20the%20actual%20values.&text=In%20case%20of%20RMSLE%2C%20you,the%20predictions%20and%20actual%20values.)
 
 
-<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/rmsle.jpg" width="600" height="150">
+<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/rmsle.png" width="600" height="150">
 
 importing the mean squared log error function (y_test=[], y_pred=[])
 
@@ -166,17 +183,45 @@ console.log(mean_squared_Error)
 0.04134814 // mean squared log Error
 
 ```
-:point_right: **y_test parameter** is the array and testing data
+:point_right: **y_test parameter** is the array and testing data                              
 :point_right: **y_pred parameter** is the array and predicting data
 
 #### r2 Score
 
+R^2 (coefficient of determination) regression score function. Best possible score is 1.0 and it can be negative (because the model can be arbitrarily worse). A constant model that always predicts the expected value of y, disregarding the input features, would get a R^2 score of 0.0.[Read More...](https://stackoverflow.com/questions/23309073/how-is-the-r2-value-in-scikit-learn-calculated)
 
+
+<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/r2.png" width="600" height="150">
+
+importing the r2_score function (y_test=[], y_pred=[])
+
+```js
+import { r2_score } from "./Engine/metrics.js";
+```
+
+inputs to the functions 
+
+```js
+var y_test = [0.2, 0.3, .22, .44, .111, .532, .45]
+var y_pred = [.333, .222, .444, .2, .33, .111, .333]
+
+
+var score = r2_score (y_test, y_pred)
+console.log(score)
+```
+
+:point_right: Output
+
+```js
+
+-1.560040 // mean squared log Error
+
+```
+:point_right: **y_test parameter** is the array and testing data                              
+:point_right: **y_pred parameter** is the array and predicting data
 
 
 #### Accuracy Score
-
-
 
 
 #### Empty Matrix
@@ -186,8 +231,6 @@ console.log(mean_squared_Error)
 
 
 #### Recall
-
-
 
 
 #### Precision

@@ -78,12 +78,12 @@
 // console.log(re)
 
 
-import {mean_squared_log_error} from "./Engine/metrics.js";
+import {r2_score} from "./Engine/metrics.js";
 
 
 var y_test = [0.2, 0.3, .22, .44, .111, .532, .45]
 var y_pred = [.333, .222, .444, .2, .33, .111, .333]
 
 
-var SquareError = mean_squared_log_error(y_test, y_pred)
+var SquareError = r2_score(y_test, y_pred)
 console.log(SquareError)
