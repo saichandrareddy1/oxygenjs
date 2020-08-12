@@ -48,6 +48,21 @@ Engine is about containing the many types of the Files, loading the data, prepro
 
         * [textCount](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md#textcount)    
 
+    * :point_right: metrices
+
+        * SquareError
+        * MeanSquaredError
+        * MeanAbsoluteError
+        * RootMeanSquareError
+        * MeanSquareLogError
+        * r2_Score
+        * AccuracyScore
+        * EmptyMatrix
+        * ConfusionMatrix
+        * Recall
+        * Precision
+        * f1_Score
+        * Classification_report
 
 
 ### Numerical JavaScript

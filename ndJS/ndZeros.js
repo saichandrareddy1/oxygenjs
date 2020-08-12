@@ -22,7 +22,5 @@ function ndZeros(shape=[]){
         }   
 }
 
-// var array_zeros = ndZeros([0, 0], 'f')
-// console.log(array_zeros)
 
 export {ndZeros}

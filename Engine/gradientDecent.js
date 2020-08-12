@@ -27,10 +27,4 @@ var GradientDecent = (X, Y, LearningRate=0.0001, epochs=1000) => {
     return [m, c]
 }
 
-// var X = [[1, 2, 5], [3, 4,5], [1, 2, 3]]
-// var Y = [2,  3, 3]
-
-// var re = GradientDecent(X, Y)
-// console.log(re)
-
 export {GradientDecent}

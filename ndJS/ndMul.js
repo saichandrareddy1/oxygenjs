@@ -33,10 +33,3 @@ function matadd(array, val) {
 }
 
 export {matmul, matadd}
-
-// var arra = [[1, 2], [3, 4]]
-// var y = 0
-// var val = matmul(arra, y, false)
-// var c = 0
-// var val = matadd(val, c)
-// console.log(val)

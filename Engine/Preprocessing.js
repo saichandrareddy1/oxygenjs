@@ -162,27 +162,5 @@ var train_test_split = (Features=[], Labels = [], test_size=20) => {
     return [X_train, X_test, y_train, y_test]
 }
 
-// var sta = StandardScaler(resul, 4)
-// console.log(sta)
-
-// var resu = LabelEncoder(resul, 4)
-// var result = TypeConvertor(resu, 5)
-// var li = featuresAndLabels(result, 5)
-// var X = li[0]
-// var y = li[1]
-// //console.log(fe.length, la.length)
-// var res = train_test_split(X, y, 20)
-// var X_train = res[0]
-// var X_test  = res[1]
-// var y_train = res[2]
-// var y_test  = res[3]
-
-// console.log(X_train)
-// console.log(X_test)
-// console.log(y_train)
-// console.log(y_test)
-
-//const arr = StandardScaler(ArrayData, mean_arr, standard_dev, 4)
-// console.log(arr)
 export {TypeConvertor, ColumnsMean, StandardScaler,StandardDeviation, 
     LabelEncoder, shuffleArray, train_test_split, featuresAndLabels}
