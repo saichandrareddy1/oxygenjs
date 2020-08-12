@@ -27,8 +27,9 @@
 5. Thanks for contributing for the project
 
 
+### How to motivate me
 ### Give a Star :star::star::star:
-:point_right: Feel free to give a star for the [repository](https://github.com/saichandrareddy1/OxygenJS) :star::star::star:
+:point_right: **Feel free to give a star for the [repository](https://github.com/saichandrareddy1/OxygenJS) :star::star::star:**
 
 
 ### Become a contributer :heart::heart::heart:

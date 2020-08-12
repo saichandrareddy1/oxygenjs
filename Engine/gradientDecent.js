@@ -11,7 +11,6 @@ var GradientDecent = (X, Y, LearningRate=0.0001, epochs=1000) => {
         }
         var val = matmul(X, m, false)
         var Y_pred =  matadd(val, c)
-        console.log(Y_pred)
         var D_m = 0
         var D_c = 0
         for (let i = 0; i < X.length; i++) {
@@ -20,7 +19,6 @@ var GradientDecent = (X, Y, LearningRate=0.0001, epochs=1000) => {
                 D_c += (-2/X.length) * (Y[i] - Y_pred[i])  
             }
         }
-        console.log(D_m, D_c)
         m = m - (LearningRate * D_m)
         c = c - (LearningRate * D_c)
     }

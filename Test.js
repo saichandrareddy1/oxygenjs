@@ -78,13 +78,29 @@
 // console.log(re)
 
 
-import {confusion_matrix, classification_report} from "./Engine/metrics.js";
+// import {confusion_matrix, classification_report} from "./Engine/metrics.js";
 
 
-var y_test = [1, 0, 1, 1, 0, 0, 0, 0, 1]
-var y_pred = [1, 1, 0, 1, 0, 1, 1, 0, 0]
+// var y_test = [1, 0, 1, 1, 0, 0, 0, 0, 1]
+// var y_pred = [1, 1, 0, 1, 0, 1, 1, 0, 0]
 
 
-var acc_score = confusion_matrix(y_test, y_pred)
-var val = classification_report(acc_score)
-console.log(val)
+// var acc_score = confusion_matrix(y_test, y_pred)
+// var val = classification_report(acc_score)
+// console.log(val)
+
+import {GradientDecent} from "./Engine/gradientDecent.js";
+
+
+var x = [
+    [2.3, 2.4, 3.5],
+    [3.2, 4.3, 5.4],
+    [3.4, 2.4, 3.5]
+]
+
+var y = [[1],
+         [0],
+         [1]
+]
+var val = GradientDecent(x, y)
+console.log(val) 

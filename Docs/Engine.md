@@ -375,6 +375,41 @@ inputting the data into the text count function
 
 #### Gradient Decent
 
+Gradient descent is a first-order iterative optimization algorithm for finding a local minimum of a differentiable function. To find a local minimum of a function using gradient descent, we take steps proportional to the negative of the gradient (or approximate gradient) of the function at the current point.[Read More...](https://en.wikipedia.org/wiki/Gradient_descent#:~:text=Gradient%20descent%20is%20a%20first,function%20at%20the%20current%20point.)
+
+importing the Gradient decent function (X, Y, LearningRate=0.0001, epochs=1000)
+
+```js
+import {GradientDecent} from "./Engine/gradientDecent.js";
+```
+inputting the data into the function
+```js
+var x = [
+    [2.3, 2.4, 3.5],
+    [3.2, 4.3, 5.4],
+    [3.4, 2.4, 3.5]
+]
+
+var y = [[1],
+         [0],
+         [1]
+]
+
+var val = GradientDecent(x, y)
+console.log(val)
+
+```
+:point_right: output
+
+```js
+[ 0.17650444224046516, 0.10466419372845183 ]
+```
+
+:point_right: X is the features data                                             
+:point_right: y is the labels data  
+:point_right: Learning rate value 
+:point_right: Numbers of Epochs  
+
 
 ### Give a Star :star::star::star:
 :point_right: Feel free to give a star for the [repository](https://github.com/saichandrareddy1/OxygenJS) :star::star::star:
