@@ -78,12 +78,12 @@
 // console.log(re)
 
 
-import { squared_error} from "./Engine/metrics.js";
+import {  mean_absolute_error} from "./Engine/metrics.js";
 
 
 var y_test = [0.2, 0.3, .22, .44, .111, .532, .45]
 var y_pred = [.333, .222, .444, .2, .33, .111, .333]
 
 
-var SquareError = squared_error(y_test, y_pred)
+var SquareError = mean_absolute_error(y_test, y_pred)
 console.log(SquareError)
