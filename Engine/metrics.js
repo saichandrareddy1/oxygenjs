@@ -193,4 +193,4 @@ var classification_report = (values=[]) => {
 
 export {classification_report, f1score, precision, recall, confusion_matrix, emptyMatrix,
 accuracy_score, r2_score, mean_squared_log_error, mean_squared_error, mean_absolute_error, 
-squared_error}
+squared_error, root_mean_squared_error}
