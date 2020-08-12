@@ -108,9 +108,9 @@ Here we are going to deal with many mathmatical functions by using JS Linearalge
 :point_right: [clustering](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)           
 
 
-### What I need
+### What you need to do
 
-I'm Really very :smile: if you are interested to contribute here !!!
+If you are interested to contribute here, please visit [this page](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Contribute.md)  !!!
 
 ### Connect with me
 
@@ -125,7 +125,9 @@ I'm Really very :smile: if you are interested to contribute here !!!
 ### Connect with me on Community
 NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
 
-### Give a Star :star::star::star:
+
+### How to motivate me 
+##### Give a Star :star::star::star:
 
 :point_right: Feel free to give a star for the [repository](https://github.com/saichandrareddy1/OxygenJS) :star::star::star:
 
