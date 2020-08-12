@@ -2,6 +2,10 @@
 
 Hello Every One I'm a <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="26" height="20"> :heart:er who is trying to bulid Machine Learning libaray in <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="26" height="20">, I really excited to create Machine Learning Library in JavaScript
 
+### What you need to do
+
+**If you are interested to contribute here, please visit [this page](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Contribute.md)  !!!**
+
 ### prerequisite
 
 we need only one libraries as the preprequisites 
@@ -107,10 +111,6 @@ Here we are going to deal with many mathmatical functions by using JS Linearalge
 :point_right: [Classification](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)       
 :point_right: [clustering](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Comming.md)           
 
-
-### What you need to do
-
-If you are interested to contribute here, please visit [this page](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Contribute.md)  !!!
 
 ### Connect with me
 

@@ -21,13 +21,10 @@
 ```js
     git clone https://github.com/saichandrareddy1/OxygenJS.git
 ```
-2. First Know about all the folders, Make a small tour
+2. First Know about all the folders, Make a small tour, Be good in full documentation because functions will help to create the Machine Learning Algorithmns
 3. Update the codes or files
 4. Upload the codes into the repository
 5. Thanks for contributing for the project
-
-
-# Very Very thanks for Being a Part in OxygenJS
 
 
 ### Give a Star :star::star::star:
@@ -50,3 +47,5 @@
 NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
 
 ### Thanks for the reading :pray::pray::pray:
+
+# Very Very thanks for Being a Part in OxygenJS
