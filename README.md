@@ -50,19 +50,19 @@ Engine is about containing the many types of the Files, loading the data, prepro
 
     * :point_right: metrices
 
-        * SquareError
-        * MeanSquaredError
-        * MeanAbsoluteError
-        * RootMeanSquareError
-        * MeanSquareLogError
-        * r2_Score
-        * AccuracyScore
-        * EmptyMatrix
-        * ConfusionMatrix
-        * Recall
-        * Precision
-        * f1_Score
-        * Classification_report
+        * [SquareError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#squared-error)
+        * [MeanSquaredError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#mean-square-error)
+        * [MeanAbsoluteError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#mean-absolute-error)
+        * [RootMeanSquareError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#root-mean-square-error)
+        * [MeanSquareLogError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#mean-square-log-error)
+        * [r2_Score](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#r2-score)
+        * [AccuracyScore](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#accuracy-score)
+        * [EmptyMatrix](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#empty-matrix)
+        * [ConfusionMatrix]()
+        * [Recall](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#recall)
+        * [Precision](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#precision)
+        * [f1_Score](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#f1_score)
+        * [Classification_report](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#classification-report)
 
 
 ### Numerical JavaScript
