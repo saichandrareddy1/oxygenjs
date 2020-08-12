@@ -22,32 +22,32 @@ Here we are going to have many functions
 ### array split
 
 Import the array_split from the ndJS library
-
+```js
     import {array_split} from './ndJS/array_split.js'
-
+```
 Working with the function array_split(array, split_units=0)
-
+```js
     import {array_split} from './ndJS/array_split.js' 
 
     var array = [1, 2, 3, 4, 5, 6]
     var arr_sp = array_split(array, 3)
     console.log(arr_sp)
-
+```
 array is the sample array and array_split is the function with two parameters                    
 array_split(parameter1, parameter2)                                          
 parameter1 :point_right: pass a array with even numbers only                                     
 parameter2 :point_right: pass any number                                                         
-     
+```js  
      [[1, 2], [3, 4], [5, 6]]
-
+```
 This is the output split array 
 
 ### linSpace
 
 importing the Linspace from ndJS library
-
+```js
     import {Linspace} from './ndJS/linSpace.js'
-
+```
 working with function Linspace(startvalue, endvalue, numberofsteps, endpoint=true)
 
 Here, in linspace function we are having two types of the choices      
@@ -55,23 +55,23 @@ Here, in linspace function we are having two types of the choices
 :point_right: endpoint=flase                                       
 
 :point_right: First working with default means enpoint=true
-
+```js
     var arr = Linspace(2, 3, 5)
     console.log("WithOut endpoint :-", arr)
-
+```
 :point_right: Output
-
+```js
     [ 2, 2.25, 2.5, 2.75, 3 ]
-
+```
 :point_right: Second we are working with endpoint=false
-
+```js
     var arr_e = Linspace(2, 3, 5, false)
     console.log("With endpoint :-",arr_e)
-
+```
 :point_right: Ouput
-
+```js
     [ 2, 2.2, 2.4, 2.6, 2.8 ]
-
+```
 Explaning about the parameters
 
 :point_right: Startvalue is about the starting number of the array            
@@ -85,136 +85,136 @@ Explaning about the parameters
 Here, ndArithmetic is a class mixed all the Arithmetic function like add, subract, ect... this is used for n dimentional matrix Arithmetic funtions
 
 importing ndArithmetic from the ndJS
-
+```js
     import {ndArithmetic} from './ndJS/ndArithmetic.js'
-
+```
 :point_right: Add :heavy_plus_sign:
 
 intilizing the class object 
-
-    var ar =new ndArithmetic()
-
+```js
+    var ar = new ndArithmetic()
+```
 Using the Add function (array1, arra2)
-
+```js
     var array1 = [[1, 2], [3, 4], [3, 4]]
     var array2 = [[6, 5], [3, 4], [4, 3]]
     var val = ar.Add(array1, array2)
     console.log(val)
-
+```
 :point_right: parameter1 and parameter2 are the array's
 
 :point_right: Output
-
+```js
     [ [ 7, 7 ], [ 6, 8 ], [ 7, 7 ] ]
-
+```
 Addition is for the Adding the Numbers in matrix in the form of the element by the element
 
 :point_right: Subract :heavy_minus_sign:
 
 intilizing the class object 
-
-    var ar =new ndArithmetic()
-
+```js
+    var ar = new ndArithmetic()
+```
 Using the Subract function (array1, arra2)
-
+```js
     var array1 = [[1, 2], [3, 4], [3, 4]]
     var array2 = [[6, 5], [3, 4], [4, 3]]
     var val = ar.Subract(array1, array2)
     console.log(val)
-
+```
 :point_right: parameter1 and parameter2 are the array's
 
 :point_right: Output
-
+```js
     [ [ -5, -3 ], [ 0, 0 ], [ -1, 1 ] ]
-
+```
 Subraction is for the Subracting the Numbers in matrix in the form of the element by the element
 
 :point_right: Multiply :heavy_multiplication_x:
 
 intilizing the class object 
-
-    var ar =new ndArithmetic()
-
+```js
+    var ar = new ndArithmetic()
+```
 Using the Multiply function (array1, arra2)
-
+```js
     var array1 = [[1, 2], [3, 4], [3, 4]]
     var array2 = [[6, 5], [3, 4], [4, 3]]
     var val = ar.Multiply(array1, array2)
     console.log(val)
-
+```
 :point_right: parameter1 and parameter2 are the array's
 
 :point_right: Output
-
+```js
     [ [ 6, 10 ], [ 9, 16 ], [ 12, 12 ] ]
-
+```
 Multiplication is for the Multiplying the Numbers in matrix in the form of the element by the element
 
 :point_right: Division :heavy_division_sign:
 
 intilizing the class object 
-
+```js
     var ar =new ndArithmetic()
-
+```
 Using the Division function (array1, arra2)
-
+```js
     var array1 = [[1, 2], [3, 4], [3, 4]]
     var array2 = [[6, 5], [3, 4], [4, 3]]
     var val = ar.Division(array1, array2)
     console.log(val)
-
+```
 :point_right: parameter1 and parameter2 are the array's
 
 :point_right: Output
-
+```js
     [
         [ 0.16666666666666666, 0.4 ],
         [ 1, 1 ],
         [ 0.75, 1.3333333333333333 ]
     ]  
-
+```
 Division is for the Dividing the Numbers in matrix in the form of the element by the element
 
 
 :point_right: Module or Remainder % :grey_exclamation:
 
 intilizing the class object 
-
+```js
     var ar =new ndArithmetic()
-
+```
 Using the Division function (array1, arra2)
-
+```js
     var array1 = [[1, 2], [3, 4], [3, 4]]
     var array2 = [[6, 5], [3, 4], [4, 3]]
     var val = ar.Module(array1, array2)
     console.log(val)
-
+```
 :point_right: parameter1 and parameter2 are the array's
 
 :point_right: Output
-
+```js
     [ [ 1, 2 ], [ 0, 0 ], [ 3, 1 ] ]  
-
+```
 Module is about the finding Element wise remainder of the all the elements in Matrix
 
 :point_right: DivMod :heavy_division_sign: 
 
 intilizing the class object 
-
+```js
     var ar =new ndArithmetic()
-
+```
 Using the DivMod function (array1, arra2)
-
+```js
     var array1 = [[1, 2], [3, 4], [3, 4]]
     var array2 = [[6, 5], [3, 4], [4, 3]]
     var val = ar.DivMod(array1, array2)
     console.log(val)
-
+```
 :point_right: parameter1 and parameter2 are the array's
 
 :point_right: Output
-
+```js
     [
         [
             [ 0.16666666666666666, 0.4 ],
@@ -225,28 +225,28 @@ Using the DivMod function (array1, arra2)
             [ 1, 2 ], [ 0, 0 ], [ 3, 1 ] 
         ]
     ] 
-
+```
 DivMod will perform both the things one is element wise division and another one is Element wise module(means finding the remainder)
 
 :point_right: Power :arrow_heading_up:
 
 intilizing the class object 
-
+```js
     var ar =new ndArithmetic()
-
+```
 Using the Power function (array1, arra2)
-
+```js
     var array1 = [[1, 2], [3, 4], [3, 4]]
     var array2 = [[6, 5], [3, 4], [4, 3]]
     var val = ar.Power(array1, array2)
     console.log(val)
-
+```
 :point_right: parameter1 and parameter2 are the array's
 
 :point_right: Output
-
+```js
     [ [ 1, 32 ], [ 27, 256 ], [ 81, 64 ] ]  
-
+```
 Power is for the making the power to another Numbers in matrix in the form of the element by the element
 
 
@@ -255,19 +255,19 @@ Power is for the making the power to another Numbers in matrix in the form of th
 ndMul is about the calculating the matrix and the vector this is mostly use ful at the time of the multiplying weights and the inputs
 
 importing the matmul from the ndMul 
-
+```js
     import {matmul} from './ndJS/ndMul.js'
-
+```
 Multiplying the matrix and vector
-
+```js
     var array1 = [[1, 2], [3, 4], [3, 4]]
     var array2 = [1, 2]
     var val = matmul(array1, array2)
-
+```
 :point_right: Output
-
+```js
     [ 1, 4, 3, 8, 3, 8 ]
-
+```
 :point_right: Parameter one is the matrix                                              
 :point_right: Parameter two is the vector                                                 
 
@@ -277,18 +277,18 @@ Multiplying the matrix and vector
 ndOnes is the function which takes the shape and will return array with all the 1, for example shape=[3, 3] then we will get 3*3 matrix will all the ones
 
 importing the ndOnes from ndJS
-
+```js
     import { ndOnes } from './ndJS/ndOnes.js'
-
+```
 here, now we are passing the shape into the ndOnes
-
+```js
     var val = ndOnes([3, 3])
     console.table(val)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: Output
-
+```js
     ┌─────────┬───┬───┬───┐
     │ (index) │ 0 │ 1 │ 2 │
     ├─────────┼───┼───┼───┤
@@ -296,7 +296,7 @@ here, now we are passing the shape into the ndOnes
     │    1    │ 1 │ 1 │ 1 │
     │    2    │ 1 │ 1 │ 1 │
     └─────────┴───┴───┴───┘
-
+```
 :point_right: Parameter is the shape pass the array with 2 elements with rows and columns
 
 ### ndZeros
@@ -304,18 +304,18 @@ here, now we are passing the shape into the ndOnes
 ndZeros is the function which takes the shape and will return array with all the 0, for example shape=[3, 3] then we will get 3*3 matrix will all the Zeros
 
 importing the ndZeros from ndJS
-
+```js
     import { ndZeros } from './ndJS/ndZeros.js'
-
+```
 here, now we are passing the shape into the ndZeros
-
+```js
     var val = ndZeros([3, 3])
     console.table(val)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: Output
-
+```js
     ┌─────────┬───┬───┬───┐
     │ (index) │ 0 │ 1 │ 2 │
     ├─────────┼───┼───┼───┤
@@ -323,7 +323,7 @@ here, now we are passing the shape into the ndZeros
     │    1    │ 0 │ 0 │ 0 │
     │    2    │ 0 │ 0 │ 0 │
     └─────────┴───┴───┴───┘
-
+```
 :point_right: Parameter is the shape pass the array with 2 elements with rows and columns
 
 
@@ -332,18 +332,18 @@ here, now we are passing the shape into the ndZeros
 ndRandom will take input as the shape, minrange, maxrange and will return output array with the shape given and with filled randomnumbers in the given max and min range
 
 import ndArray from ndRandom ndArray(range_min, range_max, shape=[])
-
+```js
     import { ndArray } from './ndJS/ndRandom.js'
-
+```
 inputting the data into the function
-
+```js
     var val = ndArray(2, 3, [3, 3])
     console.table(val)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: Ouput
-
+```js
     ┌─────────┬────────────────────┬────────────────────┬────────────────────┐
     │ (index) │         0          │         1          │         2          │
     ├─────────┼────────────────────┼────────────────────┼────────────────────┤
@@ -351,7 +351,7 @@ inputting the data into the function
     │    1    │ 2.615834949096985  │ 2.7276038222248493 │ 2.771944603710583  │
     │    2    │ 2.9876797448895127 │ 2.897416178076491  │ 2.9369418343620173 │
     └─────────┴────────────────────┴────────────────────┴────────────────────┘
-
+```
 :point_right: shape  Parameter is the shape pass the array with 2 elements with rows and columns                                         
 :point_right: range_min this parameter is for minimum value                                      
 :point_right: range_max this parameter is for maximum value                                      
@@ -362,18 +362,18 @@ inputting the data into the function
 ndRange is function which creates the multi dimentional matrix and will add the number in some range here shape is the mutidimentional shape, [#rows, #columns] columns will form the range of the matrix for example we are passing shape with [3, 4], 3 says about the rows and 4 says about the column and the range will be from  0, 1, 2, 3
 
 importing the ndRange from rangefile ndRange(shape=[])
-
+```js
     import { ndRange } from './ndJS/ndRange.js'
-
+```
 inputing the shape into the function 
-
+```js
     var val = ndRange([3, 4])
     console.table(val)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: OutPut
-
+```js
         ┌─────────┬───┬───┬───┬───┐
         │ (index) │ 0 │ 1 │ 2 │ 3 │
         ├─────────┼───┼───┼───┼───┤
@@ -381,7 +381,7 @@ inputing the shape into the function
         │    1    │ 0 │ 1 │ 2 │ 3 │
         │    2    │ 0 │ 1 │ 2 │ 3 │
         └─────────┴───┴───┴───┴───┘
-
+```
 :point_right: Parameter is the shape pass the array with 2 elements with rows and columns
 
 
@@ -390,26 +390,26 @@ inputing the shape into the function
 ndReshape is the functions will take array with only single dimention not more than that, next you need to pass what shape you need as output n dimentional array
 
 import ndreshape function ndReshape(ReshapeArray, new_size=[])
-
+```js
     import { ndReshape } from './ndJS/ndReshape.js'
-
+```
 Passing inputs to the ndReshape function
-
+```js
     var a = [1, 2, 3, 4, 5, 6]
     var val = ndReshape(a, [2, 3])
     console.table(val)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: Output
-
+```js
     ┌─────────┬───┬───┬───┐
     │ (index) │ 0 │ 1 │ 2 │
     ├─────────┼───┼───┼───┤
     │    0    │ 1 │ 2 │ 3 │
     │    1    │ 4 │ 5 │ 6 │
     └─────────┴───┴───┴───┘
-
+```
 :point_right: parameter one is the array only single dimentional array                           
 :point_right: parameter two is the needed shaped                           
 
@@ -418,29 +418,29 @@ Passing inputs to the ndReshape function
 ndSearch is the function to search the value in the Matrix and then it will return the index where the value was present in the matrix
 
 importing the ndSearch function ndSearch(array, valuetosearch, dimentions=false)
-
+```js
     import {ndSearch} from './ndJS/ndsearch.js'
-
+```
 :point_right: passing input to the function Single dimention
-
+```js
     var a = [1, 2, 3, 4, 5, 6]
     var val = ndSearch(a, 2, false)
     console.log(val)
-
+```
 :point_right: Output
-
+```js
     1 // Index Number
-
+```
 :point_right: passing input to the function MultiDimention dimention
-
+```js
     var a = [[1, 2, 3], [4, 5, 6]]
     var val = ndSearch(a, 4, true)
     console.log(val)
-
+```
 :point_right: Output 
-
+```js
     The value is a row and column [1][0]
-
+```
 Ouput will be the Exact row and the column of the Matrix
 
 :point_right: parameter1 is for passing Array                                        
@@ -452,18 +452,18 @@ Ouput will be the Exact row and the column of the Matrix
 ndSearchSort will return the index value, first it will sort the array and then will search for the value in the array later finding the value it will return the index value
 
 importing the ndSearchSort ndSearchSort(array, valuetosearch)
-
+```js
     import { ndSearchSort } from './ndJS/ndSearchSort.js'
-
+```
 passing the inputs to the function
-
+```js
     var a = [1, 2, 3, 4, 5, 6]
     var val = ndSearchSort(a, 3)
-
+```
 :point_right: Output
-
+```js
     2 // index value after sorting the array
-
+```
 :point_right: parameter1 is for the array with only one dimention                           
 :point_right: parameter2 is for the value to find, from array after sorting
 
