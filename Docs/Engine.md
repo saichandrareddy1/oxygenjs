@@ -351,12 +351,17 @@ inputting the data into the text count function
 1. textfile from the local directory
 2. which word to search
 
+//js
     var re  =  textCount('test.txt', 'to')
     console.log(re)
+//
 
 :point_right: ouput
 
     3 // three times the to is repeated in the data
+
+
+#### Gradient Decent
 
 
 ### Give a Star :star::star::star:

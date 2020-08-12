@@ -58,11 +58,15 @@ Engine is about containing the many types of the Files, loading the data, prepro
         * [r2_Score](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#r2-score)
         * [AccuracyScore](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#accuracy-score)
         * [EmptyMatrix](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#empty-matrix)
-        * [ConfusionMatrix]()
+        * [ConfusionMatrix](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#confusion-matrix)
         * [Recall](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#recall)
         * [Precision](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#precision)
         * [f1_Score](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#f1_score)
         * [Classification_report](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#classification-report)
+
+    * :point_right: Gradient Decent
+
+        * [Gradient Decent Algorithm]() 
 
 
 ### Numerical JavaScript
