@@ -66,7 +66,7 @@ Engine is about containing the many types of the Files, loading the data, prepro
 
     * :point_right: Gradient Decent
 
-        * [Gradient Decent Algorithm]() 
+        * [Gradient Decent Algorithm](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/Engine.md#gradient-decent) 
 
 
 ### Numerical JavaScript

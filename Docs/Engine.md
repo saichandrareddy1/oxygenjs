@@ -34,19 +34,19 @@ Present we are having some Functions
 textLoad is the function which will take input as the text and will return output as the metrices.
 
 importing the textLoad function loadTxt(data)
-
+```js
     import loadTxt from "./Engine/Load.js"
-
+```
 sending input to the loadTxt function
-
+```js
     var data = "iris.txt"
     var re= loadTxt(data)
     console.table(re)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: OutPut
-
+```js
     ┌─────────┬───────┬───────┬───────┬───────┬─────────────────────┐
     │ (index) │   0   │   1   │   2   │   3   │          4          │
     ├─────────┼───────┼───────┼───────┼───────┼─────────────────────┤
@@ -61,7 +61,7 @@ sending input to the loadTxt function
     └─────────┴───────┴───────┴───────┴───────┴─────────────────────┘
     
     .......More
-
+```
 :point_right: Parameter is the row File Name
 
 
@@ -74,16 +74,16 @@ Preprocessing is the one of the important tecinique in machine we need to make o
 TypeConvertor is the function to convert the string data to the integer data, **suppose the give data '5.3' it will convert to the 5.3 which is the integer**
 
 importing the type convertor function
-
+```js
     import { TypeConvertor } from "./Engine/Preprocessing.js"
-
+```
 inputing the data into the function
-
+```js
     var ty = TypeConvertor(re, 4)
     console.log(ty)
-
+```
 :point_right: Output
-
+```js
     [
         [ 5.1, 3.5, 1.4, 0.2, 'Iris-setosa\r' ],
         [ 4.9, 3, 1.4, 0.2, 'Iris-setosa\r' ],
@@ -125,7 +125,7 @@ inputing the data into the function
         [ 4.9, 3.1, 1.5, 0.1, 'Iris-setosa\r' ]
         .... 100 more
     ]
-
+```
 :point_right:  Parameter one the passing the matrix data 
 :point_right:  parameter two the numberofcolumns to convert into the numeric 
 
@@ -135,23 +135,23 @@ inputing the data into the function
 ColumnsMeans is the function which takes the matrix data and numberof columns that you are willing to find the mean, it will return array with the mean of all the columns in list
 
 importing the columnsmean function
-
+```js
     import { ColumnsMean } from "./Engine/Preprocessing.js"
-
+```
 Inputting the data into the columnsmean
-
+```js
     var c = ColumnsMean(re, 4)
     console.log(c)
-
+```
 :point_right: Output
-
+```js
         [
             5.843333333333335,
             3.0540000000000007,
             3.7586666666666693,
             1.1986666666666672
         ]
-
+```
 :point_right:  Parameter one the passing the matrix data 
 :point_right:  parameter two the numberofcolumns to find the mean
 
@@ -160,17 +160,18 @@ Inputting the data into the columnsmean
 Standard Scaler is a function used to do normalization for the data, it will take matrix as the input and will return output as the normalized matrix data
 
 importing the standardscaler function
-
+```js
     import { StandardScaler } from "./Engine/Preprocessing.js"
-
+```
 inputting the matrix data to the function
-
+```js
     var st = StandardScaler(re, 4)
     console.log(st)
-
+```
 :point_right:  Output
 
-    [
+ ```js
+   [
         [ -0.9, 1.03, -1.34, -1.31, 'Iris-setosa\r' ],
         [ -1.14, -0.12, -1.34, -1.31, 'Iris-setosa\r' ],
         [ -1.39, 0.34, -1.4, -1.31, 'Iris-setosa\r' ],
@@ -192,7 +193,7 @@ inputting the matrix data to the function
         [ -1.51, 0.34, -1.34, -1.31, 'Iris-setosa\r' ]
         .... 120 more
     ]
-
+```
 :point_right:  Parameter one the passing the matrix data                                    
 :point_right:  parameter two the numberofcolumns to return normalized data
 
@@ -202,22 +203,24 @@ inputting the matrix data to the function
 StandardDeviation is the function is used to find the standarddeviation for columns which we have passed, we will give data and number of columns to return standarddeviation
 
 importing the standard deviation
-
+```js
     import { StandardDeviation } from "./Engine/Preprocessing.js"
-
+```
 inputting the data to the function
-
+```js
     var sd = StandardDeviation(re, 4)
     console.log(sd)
+```
 
 :point_right: Output
-
+```js
     [
         0.8253012917851406,
         0.4321465800705438,
         1.7585291834055206,
         0.7606126185881716
     ]
+```
 
 :point_right:  Parameter one the passing the matrix data                                    
 :point_right:  parameter two the numberofcolumns to return standard deviation
@@ -228,16 +231,16 @@ inputting the data to the function
 LabelEncoder is a technique to encode the categorical data into the numeric data, it will take the data matrix and return's encoded data 
 
 importing the LabelEncoder function
-    
+```js    
     import { LabelEncoder } from "./Engine/Preprocessing.js"
-
+```
 inputting the data into the function 
-
+```js
     var lb = LabelEncoder(re, 4)
     console.log(lb)
-
+```
 :point_right: OutPut
-
+```js
     [
         [ '5.1', '3.5', '1.4', '0.2', 0 ],
         [ '4.9', '3.0', '1.4', '0.2', 0 ],
@@ -246,7 +249,7 @@ inputting the data into the function
         [ '5.0', '3.6', '1.4', '0.2', 0 ],
         [ '5.4', '3.9', '1.7', '0.4', 0 ]
     ]
-
+```
 :point_right:  Parameter one the passing the matrix data                                    
 :point_right:  parameter two the numberofcolumns to return standard deviation
 
@@ -255,19 +258,20 @@ inputting the data into the function
 Shuffle array is used to shuffle, it will take array as input and will return shuffled array as output
 
 importing the shufflearray function
-
+```js
     import { shuffleArray } from "./Engine/Preprocessing.js"
-
+```
 inputting the shuffle array with the data
 
+```js   
     var array = [1, 2,3 ,4, 5, 6, 7] // input array with sequence
     var sf = shuffleArray(array)
     console.log(sf)
-
+```
 :point_right: OutPut
-
+```js
     [1, 5, 7, 4,2, 6, 3] // output array shuffled
-
+```
 :point_right: the parameter is the array 
 
 
@@ -279,17 +283,18 @@ train_test_split is the function to split the data into the two parts training a
 3. testset size you are seeing
 
 importing the train_test_split function 
-
+```js
     import { train_test_split } from "./Engine/Preprocessing.js"
-
+```
 inputting the data into the train_test_split function
-
+```js
     var data = train_test_split(features, labels, 20)
     var X_train = data[0]
     var X_test = data[1]
     var y_train = data[2]
     var y_test = data[3]
     console.log(data)
+```
 
 :point_right: OutPut
 
@@ -302,18 +307,21 @@ featuresAndLabels is the function is used to separate the data into the features
 2. LabelColumnNumber :  which you need to make labels
 
 importing the featuresAndLabels function 
-
+```js
     import { featuresAndLabels } from "./Engine/Preprocessing.js"
-
+```
 inputting the data into the featureAndLabels function
 
+```js
     var fl = featuresAndLabels(re, 5)
     var fe = fl[0]
     var l = fl[1]
     console.log(fe, l)
+```
 
 :point_right: Output
 
+```js
     // Features
 
     [
@@ -332,6 +340,7 @@ inputting the data into the featureAndLabels function
         [ 'Iris-setosa\r' ],     [ 'Iris-setosa\r' ],     [ 'Iris-virginica\r' ],
         [ 'Iris-versicolor\r' ], [ 'Iris-virginica\r' ],  [ 'Iris-versicolor\r' ],
     ]
+```
 
 
 
@@ -344,22 +353,23 @@ textCount is a function is used to count the given word from the entire text of 
 
 importing the textCount function 
 
+```js
     import { textCount } from "./Engine/textCount.js"
-
+```
 inputting the data into the text count function
 
 1. textfile from the local directory
 2. which word to search
 
-//js
+```js
     var re  =  textCount('test.txt', 'to')
     console.log(re)
-//
+```
 
 :point_right: ouput
-
+```js
     3 // three times the to is repeated in the data
-
+```
 
 #### Gradient Decent
 
