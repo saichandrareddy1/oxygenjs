@@ -29,17 +29,17 @@
 //     from "./Engine/Preprocessing.js"
 
 
-import loadTxt from "./Engine/Load.js"
+// import loadTxt from "./Engine/Load.js"
 
 
-var data = "iris.txt"
-var re= loadTxt(data)
-// console.table(re)
+// var data = "iris.txt"
+// var re= loadTxt(data)
+// // console.table(re)
 
-import { train_test_split, featuresAndLabels } from "./Engine/Preprocessing.js"
-import { textCount } from "./Engine/textCount.js"
+// import { train_test_split, featuresAndLabels } from "./Engine/Preprocessing.js"
+// import { textCount } from "./Engine/textCount.js"
 
-//var ty = TypeConvertor(re, 4)
+// //var ty = TypeConvertor(re, 4)
 //console.log(ty)
 
 // var c = ColumnsMean(re, 4)
@@ -74,6 +74,16 @@ import { textCount } from "./Engine/textCount.js"
 // console.log(data)
 
 
-var re  =  textCount('test.txt', 'to')
-console.log(re)
+// var re  =  textCount('test.txt', 'to')
+// console.log(re)
 
+
+import { squared_error} from "./Engine/metrics.js";
+
+
+var y_test = [0.2, 0.3, .22, .44, .111, .532, .45]
+var y_pred = [.333, .222, .444, .2, .33, .111, .333]
+
+
+var SquareError = squared_error(y_test, y_pred)
+console.log(SquareError)
