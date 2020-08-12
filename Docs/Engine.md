@@ -297,9 +297,9 @@ inputting the data into the train_test_split function
 ```
 
 :point_right: OutPut
-
+```js
     The data will be divided into train and test sets
-
+```
 #### featuresAndLabels
 featuresAndLabels is the function is used to separate the data into the features and labels, it will take 2
 
@@ -340,6 +340,8 @@ inputting the data into the featureAndLabels function
         [ 'Iris-setosa\r' ],     [ 'Iris-setosa\r' ],     [ 'Iris-virginica\r' ],
         [ 'Iris-versicolor\r' ], [ 'Iris-virginica\r' ],  [ 'Iris-versicolor\r' ],
     ]
+
+
 ```
 
 

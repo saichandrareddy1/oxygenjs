@@ -33,19 +33,19 @@ det is the having two function det and invDet, det is for the determinent of the
 In determinant function we will pass the input as the 2d matrix and will return the determinant value, you can see the formula from :point_up:
 
 importing the determinant function
-
+```js
     import {Det} from './LinalgJS/determinant.js'
-
+```
 we are giving input as the array with 2 dimention
-
+```js
     var a = [[1, 2], [4, 5]]
     var val = Det(a)
     console.log(val)
-
+```
 :point_right: Ouput 
-
+```js
     -3 // final value after applying the determinant
-
+```
 :point_right: Parameter is the array with two dimentions
 
 #### inverse determinant 
@@ -53,23 +53,23 @@ we are giving input as the array with 2 dimention
 inverse determinant will take input as the array and will return output as the matrix, for the mathematical calculation follow the :point_up: formula 
 
 importing the invDet from the determinant
-
+```js
     import {invDet} from './LinalgJS/determinant.js'
-
+```
 inputing the array to the function 
-
+```js
     var a = [[1, 2], [4, 5]]
     var val = invDet(a)
     console.log(val)
-
+```
 
 :point_right: Output
-
+```js
     [
         [ -1.6666666666666665, 0.6666666666666666 ],
         [ 1.3333333333333333, -0.3333333333333333 ]
     ]
-
+```
 :point_right: parameter is the array with 2 dimention
 
 
@@ -82,27 +82,27 @@ mat is library with many function for matrix multiplication, dot products, vecto
 matrixMul is a matrix multiplication function, it will take input as two array and will return matrix multiplication array
 
 importing the matMul, matrixMul(matrix1, matrix2)
-
+```js
     import { matrixMul } from './LinalgJS/mat.js'
-
+```
 inputing the data into the matrixMul function
-
+```js
     var a = [[1, 2], [4, 5]]
     var b = [[2, 3], [4, 6]]
     var val = matrixMul(a, b)
     console.table(val)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: OutPut
-
+```js
         ┌─────────┬────┬────┐
         │ (index) │ 0  │ 1  │
         ├─────────┼────┼────┤
         │    0    │ 10 │ 15 │
         │    1    │ 28 │ 42 │
         └─────────┴────┴────┘
-
+```
 :point_right:  Parameter1 for the matrix1                                                     
 :point_right:  Parameter2 for the matrix2                                                       
 
@@ -111,23 +111,27 @@ inputing the data into the matrixMul function
 dot product is like the element by element multiplication with the two matrix, it iwll return the matrix 
 
 importing the dot function dot(arra, y)
-
+```js
+    import { dot } from './LinalgJS/mat.js'
+```
+inputting the data to the function
+```js
     var a = [[1, 2], [4, 5]]
     var b = [[2, 3], [4, 6]]
     var val = vdot(a, b)
     console.table(val)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: OutPut
-
+```js
     ┌─────────┬────┬────┐
     │ (index) │ 0  │ 1  │
     ├─────────┼────┼────┤
     │    0    │ 2  │ 6  │
     │    1    │ 16 │ 30 │
     └─────────┴────┴────┘
-
+```
 :point_right:  Parameter1 for the matrix1                                                     
 :point_right:  Parameter2 for the matrix2                                                       
 
@@ -136,22 +140,22 @@ importing the dot function dot(arra, y)
 vector dot product is the function will take two metrices as the input and will return dot product value, it is a scaler value
 
 importing vdot (matrix1, matrix2)
-
+```js
     import { vdot } from './LinalgJS/mat.js'
-
+```
 inputing the metrices into the function
-
+```js
     var a = [[1, 2], [4, 5]]
     var b = [[2, 3], [4, 6]]
     var val = vdot(a, b)
     console.table(val)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: OutPut
- 
+```js
     54 // this is the vdot product value
-
+```
 :point_right:  Parameter1 for the matrix1                                                     
 :point_right:  Parameter2 for the matrix2  
 
@@ -160,18 +164,18 @@ inputing the metrices into the function
 identity is the function which will return the identity matrix in n dimention, here the input will be shape of the matrix which the user needed
 
 importing the identity matrix 
-
+```js
     import { identity } from './LinalgJS/mat.js'
-
+```
 inputing the shape into the function
-
+```js
     var val = identity([3, 3])
     console.table(val)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: OutPut
-
+```js
     ┌─────────┬───┬───┬───┐
     │ (index) │ 0 │ 1 │ 2 │
     ├─────────┼───┼───┼───┤
@@ -179,7 +183,7 @@ inputing the shape into the function
     │    1    │ 0 │ 1 │ 0 │
     │    2    │ 0 │ 0 │ 1 │
     └─────────┴───┴───┴───┘
-
+```
 :point_right: Parameter was the shape, ex [3, 3], [3, 3]
 
 ##### eye
@@ -187,18 +191,18 @@ inputing the shape into the function
 eye is the function to get identity matrix from requried index number, in the from of the rows or columns, input will be the shape, index number, rowsmoved with boolean
 
 importing the eye function (shape=[], iden, rowmove =false)
-
+```js
     import { eye } from './LinalgJS/mat.js'
-
+```
 inputing the shape into the function with rowmove is false (Default)
-
+```js
     var val = eye([3, 3], 1)
     console.table(val)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: OutPut
-
+```js
     ┌─────────┬───┬───┬───┐
     │ (index) │ 0 │ 1 │ 2 │
     ├─────────┼───┼───┼───┤
@@ -206,16 +210,16 @@ inputing the shape into the function with rowmove is false (Default)
     │    1    │ 1 │ 0 │ 0 │
     │    2    │ 0 │ 1 │ 0 │
     └─────────┴───┴───┴───┘
-
+```
 inputing the shape into the function with rowmove is True
-
+```js
     var val = eye([3, 3], 1, true)
     console.table(val)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: OutPut
-
+```js
     ┌─────────┬───┬───┬───┐
     │ (index) │ 0 │ 1 │ 2 │
     ├─────────┼───┼───┼───┤
@@ -223,7 +227,7 @@ inputing the shape into the function with rowmove is True
     │    1    │ 0 │ 0 │ 1 │
     │    2    │ 0 │ 0 │ 0 │
     └─────────┴───┴───┴───┘
-
+```
 :point_right: parameter1 is for the shape of the matrix                                          
 :point_right: parameter2 is for the index, from where identity should form                       
 :point_right: parameter3 is for the rowmove true for row type identity , fasle for the column type identity
@@ -234,27 +238,27 @@ inputing the shape into the function with rowmove is True
 inner product is the function like matrixMul but the multiplication will be done the row by row side, here inputs will be the two matrix and will return inner product matrix
 
 importing the inner product inner(array1, array2)
-
+```js
     import { inner } from './LinalgJS/mat.js'
-
+```
 inputing the two array into to the matrix
-
+```js
     var a = [[1, 2], [4, 5]]
     var b = [[2, 3], [4, 6]]
     var val = inner(a, b)
     console.table(val)
-
+```
 [console.table](https://developer.mozilla.org/en-US/docs/Web/API/Console/table) is used to print in tabularform
 
 :point_right: OutPut
-
+```js
     ┌─────────┬────┬────┐
     │ (index) │ 0  │ 1  │
     ├─────────┼────┼────┤
     │    0    │ 8  │ 16 │
     │    1    │ 23 │ 46 │
     └─────────┴────┴────┘
-
+```
 :point_right:  Parameter1 for the matrix1                                                     
 :point_right:  Parameter2 for the matrix2  
 
