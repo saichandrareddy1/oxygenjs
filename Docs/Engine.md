@@ -322,7 +322,6 @@ inputting the data into the featureAndLabels function
 :point_right: Output
 
 ```js
-    // Features
 
     [
         [ '5.3', '3.7', '1.5', '0.2' ],
@@ -331,17 +330,13 @@ inputting the data into the featureAndLabels function
         [ '5.4', '3.9', '1.3', '0.4' ],
         [ '5.8', '4.0', '1.2', '0.2' ],
         [ '6.3', '2.8', '5.1', '1.5' ],
-    ]
-
-    // Labels
+    ] //Features
 
     [
         [ 'Iris-setosa\r' ],     [ 'Iris-virginica' ],    [ 'Iris-virginica\r' ],
         [ 'Iris-setosa\r' ],     [ 'Iris-setosa\r' ],     [ 'Iris-virginica\r' ],
         [ 'Iris-versicolor\r' ], [ 'Iris-virginica\r' ],  [ 'Iris-versicolor\r' ],
-    ]
-
-
+    ] // Labels
 ```
 
 
@@ -407,7 +402,7 @@ console.log(val)
 
 :point_right: X is the features data                                             
 :point_right: y is the labels data  
-:point_right: Learning rate value 
+:point_right: Learning rate value                                                           
 :point_right: Numbers of Epochs  
 
 
