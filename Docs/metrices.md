@@ -3,7 +3,7 @@
 ***This docs include all the scores and errors***, it help's to find the data is working or not
 
 
-* Metrices
+* Metrics
     * [SquareError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#squared-error)
     * [MeanSquaredError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#mean-square-error)
     * [MeanAbsoluteError](https://github.com/saichandrareddy1/OxygenJS/blob/master/Docs/metrices.md#mean-absolute-error)
@@ -223,24 +223,240 @@ console.log(score)
 
 #### Accuracy Score
 
+Classification accuracy is our starting point. It is the number of correct predictions made divided by the total number of predictions made, multiplied by 100 to turn it into a percentage [Read More...](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
+
+<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/acc.png" width="600" height="150">
+
+Importing the accuracy score function (y_test=[], y_pred=[])
+
+```js
+import {accuracy_score} from "./Engine/metrics.js";
+```
+
+inputting the data to the function
+
+```js
+var y_test = [1, 0, 1, 1, 0, 0, 0, 0, 1]
+var y_pred = [1, 1, 0, 1, 0, 1, 1, 0, 0]
+var acc_score = accuracy_score(y_test, y_pred)
+console.log(acc_score)
+```
+
+:point_right: Output
+
+```js
+
+0.4444 // accuracy score
+
+```
+:point_right: **y_test parameter** is the array and testing data                              
+:point_right: **y_pred parameter** is the array and predicting data
+
 
 #### Empty Matrix
 
 
 #### Confusion Matrix
 
+A confusion matrix is a table that is often used to describe the performance of a classification model (or “classifier”) on a set of test data for which the true values are known. It allows the visualization of the performance of an algorithm. [Read More...](https://en.wikipedia.org/wiki/Confusion_matrix)
+
+<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/cm.png" width="600" height="150">
+
+Importing the confusion Matrix function (y_test=[], y_pred=[])
+
+```js
+import {confusion_matrix} from "./Engine/metrics.js";
+```
+
+inputting the data to the function
+
+```js
+var y_test = [1, 0, 1, 1, 0, 0, 0, 0, 1]
+var y_pred = [1, 1, 0, 1, 0, 1, 1, 0, 0]
+var confusion_ma = confusion_matrix(y_test, y_pred)
+console.table(confusion_ma)
+```
+
+:point_right: Output
+
+```js
+
+┌─────────┬───┬───┐
+│ (index) │ 0 │ 1 │
+├─────────┼───┼───┤
+│    0    │ 2 │ 3 │
+│    1    │ 2 │ 2 │
+└─────────┴───┴───┘
+
+```
+:point_right: **y_test parameter** is the array and testing data                              
+:point_right: **y_pred parameter** is the array and predicting data
+
 
 #### Recall
+
+In pattern recognition, information retrieval and classification (machine learning), precision (also called positive predictive value) is the fraction of relevant instances among the retrieved instances, while recall (also known as sensitivity) is the fraction of the total amount of relevant instances that were [Read More...](https://en.wikipedia.org/wiki/Precision_and_recall)
+
+
+<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/recall.png" width="600" height="150">
+
+Importing the recall function (values=[])
+
+```js
+import {confusion_matrix, recall} from "./Engine/metrics.js";
+```
+
+inputting the data to the function
+
+```js
+var y_test = [1, 0, 1, 1, 0, 0, 0, 0, 1]
+var y_pred = [1, 1, 0, 1, 0, 1, 1, 0, 0]
+var confusion_ma = confusion_matrix(y_test, y_pred)
+var val = recall(confusion_ma)
+console.table(val)
+```
+
+:point_right: Output
+
+```js
+
+┌─────────┬────────┐
+│ (index) │ Values │
+├─────────┼────────┤
+│    0    │  0.5   │
+│    1    │  0.4   │
+└─────────┴────────┘
+
+```
+:point_right: **Value parameter** is the confusion matrix values                             
 
 
 #### Precision
 
+Precision - Precision is the ratio of correctly predicted positive observations to the total predicted positive observations. The question that this metric answer is of all passengers that labeled as survived, how many actually survived? High precision relates to the low false positive rate.[Read More...](https://en.wikipedia.org/wiki/Precision_and_recall)
 
+<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/pre.png" width="600" height="150">
+
+Importing the precision function (values=[])
+
+```js
+import {confusion_matrix, precision} from "./Engine/metrics.js";
+```
+
+inputting the data to the function
+
+```js
+var y_test = [1, 0, 1, 1, 0, 0, 0, 0, 1]
+var y_pred = [1, 1, 0, 1, 0, 1, 1, 0, 0]
+var confusion_ma = confusion_matrix(y_test, y_pred)
+var val = precision(confusion_ma)
+console.table(val)
+```
+
+:point_right: Output
+
+```js
+
+┌─────────┬────────┐
+│ (index) │ Values │
+├─────────┼────────┤
+│    0    │  0.5   │
+│    1    │  0.4   │
+└─────────┴────────┘
+
+```
+:point_right: **Value parameter** is the confusion matrix values                             
 
 
 #### f1_Score
 
+In statistical analysis of binary classification, the F1 score is a measure of a test's accuracy. ... The general formula for positive real β, where β is chosen such that recall is considered β times as important as precision, is: F β = ( 1 + β 2 ) ⋅ p r e [Read More...](https://en.wikipedia.org/wiki/F1_score)
 
+<img src="https://github.com/saichandrareddy1/OxygenJS/blob/master/images/f1.png" width="600" height="150">
+
+Importing the f1score function (values=[])
+
+```js
+import {confusion_matrix, f1score} from "./Engine/metrics.js";
+```
+
+inputting the data to the function
+
+```js
+var y_test = [1, 0, 1, 1, 0, 0, 0, 0, 1]
+var y_pred = [1, 1, 0, 1, 0, 1, 1, 0, 0]
+var confusion_ma = confusion_matrix(y_test, y_pred)
+var val = f1score(confusion_ma)
+console.table(val)
+```
+
+:point_right: Output
+
+```js
+
+┌─────────┬────────────────────┐
+│ (index) │       Values       │
+├─────────┼────────────────────┤
+│    0    │ 0.4444444444444445 │
+│    1    │ 0.4444444444444445 │
+└─────────┴────────────────────┘
+
+```
+:point_right: **Value parameter** is the confusion matrix values                             
 
 
 #### Classification Report
+The classification report shows a representation of the main classification metrics on a per-class basis. This gives a deeper intuition of the classifier behavior over global accuracy which can mask functional weaknesses in one class of a multiclass problem.
+
+Importing the classification_report function (values=[])
+
+```js
+import {confusion_matrix, classification_report} from "./Engine/metrics.js";
+```
+
+inputting the data to the function
+
+```js
+var y_test = [1, 0, 1, 1, 0, 0, 0, 0, 1]
+var y_pred = [1, 1, 0, 1, 0, 1, 1, 0, 0]
+var confusion_ma = confusion_matrix(y_test, y_pred)
+var val = classification_report(confusion_ma)
+console.log(val)
+```
+
+:point_right: Output
+
+```js
+
+---------------------------------------
+| Class | Precision | Recall | F1score |
+---------------------------------------
+|   0   | 0.40      | 0.50   | 0.44    |
+|   1   | 0.50      | 0.40   | 0.44    |
+---------------------------------------
+
+```
+:point_right: **Value parameter** is the confusion matrix values                             
+
+
+
+### Give a Star :star::star::star:
+:point_right: Feel free to give a star for the [repository](https://github.com/saichandrareddy1/OxygenJS) :star::star::star:
+
+
+Become a contributer :heart::heart::heart:
+
+### Connect with me
+
+[![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][1]
+[![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][3]
+[![facebook](https://cloud.githubusercontent.com/assets/17016297/18839836/0a06deb4-83d2-11e6-8078-1d0974af0f63.png)][2]
+
+[1]: https://github.com/saichandrareddy1
+[2]: https://www.linkedin.com/in/sai-chandra-reddy-vuta-946b2b133/
+[3]: https://www.facebook.com/saichandrareddy.vuta
+
+### Connect with me on Community
+NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
+
+### Thanks for the reading :pray::pray::pray:

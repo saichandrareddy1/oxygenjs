@@ -78,12 +78,13 @@
 // console.log(re)
 
 
-import {r2_score} from "./Engine/metrics.js";
+import {confusion_matrix, classification_report} from "./Engine/metrics.js";
 
 
-var y_test = [0.2, 0.3, .22, .44, .111, .532, .45]
-var y_pred = [.333, .222, .444, .2, .33, .111, .333]
+var y_test = [1, 0, 1, 1, 0, 0, 0, 0, 1]
+var y_pred = [1, 1, 0, 1, 0, 1, 1, 0, 0]
 
 
-var SquareError = r2_score(y_test, y_pred)
-console.log(SquareError)
+var acc_score = confusion_matrix(y_test, y_pred)
+var val = classification_report(acc_score)
+console.log(val)
