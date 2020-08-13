@@ -136,4 +136,13 @@ NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
 Now Numerical  <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" width="26" height="20">  was going to Update By Agust 15th,Very soon will release with all the ML algorithmns :v::v::v:
 
 
+### Are we having any npm module ?
+**yes we have**
+```js
+    npm i mlo2
+```
+
+***it will update into the module by 22nd August, completely find the link [here](https://www.npmjs.com/package/mlo2)***
+
+
 ### Thanks :pray::pray::pray:

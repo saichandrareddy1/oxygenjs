@@ -1,16 +1,29 @@
 {
-  "name": "mllib",
-  "version": "1.0.0",
+  "name": "mlo2",
+  "version": "0.0.1",
   "main": "import.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sai Chandra Reddy",
+  "license": "MIT",
   "dependencies": {
     "mathjs": "^7.1.0"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "Hello Every One I'm a <img src=\"https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png\" width=\"26\" height=\"20\"> :heart:er who is trying to bulid Machine Learning libaray in <img src=\"https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png\" width=\"26\" height=\"20\">, I really excited to create Machine Learning Library in JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saichandrareddy1/OxygenJS.git"
+  },
+  "keywords": [
+    "Machine",
+    "Learning",
+    "datascience"
+  ],
+  "bugs": {
+    "url": "https://github.com/saichandrareddy1/OxygenJS/issues"
+  },
+  "homepage": "https://github.com/saichandrareddy1/OxygenJS#readme"
 }
