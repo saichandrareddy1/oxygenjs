@@ -139,10 +139,10 @@ Now Numerical  <img src="https://raw.githubusercontent.com/github/explore/80688e
 ### Are we having any npm module ?
 **yes we have**
 ```js
-    npm i mlo2
+    npm i oxygenjs
 ```
 
-***it will update into the module by 22nd August, completely find the link [here](https://www.npmjs.com/package/mlo2)***
+***it will update into the module by 22nd August, completely find the link [here](https://www.npmjs.com/package/oxygenjs)***
 
 
 ### Thanks :pray::pray::pray:
