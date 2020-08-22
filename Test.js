@@ -39,7 +39,7 @@
 // import { train_test_split, featuresAndLabels } from "./Engine/Preprocessing.js"
 // import { textCount } from "./Engine/textCount.js"
 
-// //var ty = TypeConvertor(re, 4)
+// var ty = TypeConvertor(re, 4)
 //console.log(ty)
 
 // var c = ColumnsMean(re, 4)
@@ -89,18 +89,24 @@
 // var val = classification_report(acc_score)
 // console.log(val)
 
-import {GradientDecent} from "./Engine/gradientDecent.js";
+// import {GradientDecent} from "./Engine/gradientDecent.js";
 
 
-var x = [
-    [2.3, 2.4, 3.5],
-    [3.2, 4.3, 5.4],
-    [3.4, 2.4, 3.5]
-]
+// var x = [
+//     [2.3, 2.4, 3.5],
+//     [3.2, 4.3, 5.4],
+//     [3.4, 2.4, 3.5]
+// ]
 
-var y = [[1],
-         [0],
-         [1]
-]
-var val = GradientDecent(x, y)
-console.log(val) 
+// var y = [[1],
+//          [0],
+//          [1]
+// ]
+// var val = GradientDecent(x, y)
+// console.log(val) 
+
+
+///import { classification_report } from "metrics";
+
+import confusion_matrix from './Engine/engine.js'
+console.log(confusion_matrix)

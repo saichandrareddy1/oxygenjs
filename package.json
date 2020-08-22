@@ -1,7 +1,7 @@
 {
   "name": "oxygenjs",
   "version": "0.0.2",
-  "main": "import.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
     "test": "npm test"

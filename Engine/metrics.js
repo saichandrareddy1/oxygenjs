@@ -1,8 +1,10 @@
 import {ndZeros} from '../ndJS/ndZeros.js'
 
+"use strict"
 
 
-var squared_error = (y_test=[], y_pred=[]) => {
+
+const squared_error = (y_test=[], y_pred=[]) => {
 
     var squared_error_value = 0
     if(y_pred.length === y_test.length) {
@@ -14,14 +16,14 @@ var squared_error = (y_test=[], y_pred=[]) => {
 }
 
 
-var mean_squared_error = (y_test = [], y_pred = []) => {
+const mean_squared_error = (y_test = [], y_pred = []) => {
 
     var squared_error_ = squared_error(y_test, y_pred)
     var mean = squared_error_ / y_test.length
     return mean
 }
 
-var mean_absolute_error = (y_test=[], y_pred=[]) => {
+const mean_absolute_error = (y_test=[], y_pred=[]) => {
 
     var ab = 0
 
@@ -173,7 +175,7 @@ var f1score = (values=[]) =>{
     return f1 
 }
 
-var classification_report = (values=[]) => {
+function classification_report(values=[]){
     var pre = precision(values)
     var rec = recall(values)
     var f1 = f1score(values)
@@ -191,6 +193,3 @@ var classification_report = (values=[]) => {
 }
 
 
-export {classification_report, f1score, precision, recall, confusion_matrix, emptyMatrix,
-accuracy_score, r2_score, mean_squared_log_error, mean_squared_error, mean_absolute_error, 
-squared_error, root_mean_squared_error}
