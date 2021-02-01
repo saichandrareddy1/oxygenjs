@@ -122,10 +122,6 @@ Here we are going to deal with many mathmatical functions by using JS Linearalge
 [2]: https://www.linkedin.com/in/sai-chandra-reddy-vuta-946b2b133/
 [3]: https://www.facebook.com/saichandrareddy.vuta
 
-### Connect with me on Community
-NameError.ai Comminity :- https://community.nameerror.ai/members/saireddy/
-
-
 ### How to motivate me 
 ##### Give a Star :star::star::star:
 
