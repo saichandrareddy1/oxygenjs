@@ -9,7 +9,7 @@
   "author": "Sai Chandra Reddy",
   "license": "MIT",
   "dependencies": {
-    "mathjs": "^7.1.0"
+    "mathjs": "^7.5.1"
   },
   "devDependencies": {},
   "description": "Machine Learning Library with Js",
